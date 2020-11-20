@@ -1,0 +1,71 @@
+{
+  "name": "router",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "apexcharts": "^3.22.0",
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "core-js": "^2.6.11",
+    "npm": "^6.14.8",
+    "svg": "^0.1.0",
+    "vue": "^2.6.12",
+    "vue-apexcharts": "^1.6.0",
+    "vue-chartjs": "^3.5.1",
+    "vue-observe-visibility": "^0.4.6",
+    "vue-progress": "^0.2.1",
+    "vue-radial-progress": "^0.3.2",
+    "vue-router": "^3.4.6",
+    "vue2-circle-progress": "^1.2.3",
+    "vuetify": "^2.3.13",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^1.0.6",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-eslint": "^3.12.1",
+    "@vue/cli-service": "^3.12.1",
+    "@vue/eslint-config-prettier": "^5.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^5.0.0",
+    "prettier": "^1.19.1",
+    "sass": "^1.27.0",
+    "sass-loader": "^7.3.1",
+    "vue-cli-plugin-vuetify": "^0.6.3",
+    "vue-skill-bar": "^1.0.1",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify-loader": "^1.6.0",
+    "webpack": "^4.44.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/prettier"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
