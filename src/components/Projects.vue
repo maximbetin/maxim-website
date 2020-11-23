@@ -154,6 +154,39 @@
                           class="chip-wrapper"
                           v-if="
                             item.link ==
+                              'https://github.com/maximbetin/awesome-sysadmin'
+                          "
+                        >
+                          <v-icon left>mdi-language-markdown</v-icon>
+                          Markdown
+                        </v-chip>
+
+                        <v-chip
+                          class="chip-wrapper"
+                          v-if="
+                            item.link ==
+                              'https://github.com/maximbetin/awesome-sre'
+                          "
+                        >
+                          <v-icon left>mdi-language-markdown</v-icon>
+                          Markdown
+                        </v-chip>
+
+                        <v-chip
+                          class="chip-wrapper"
+                          v-if="
+                            item.link ==
+                              'https://github.com/maximbetin/vim-cheatsheet'
+                          "
+                        >
+                          <v-icon left>mdi-langmaximuage-markdown</v-icon>
+                          Markdown
+                        </v-chip>
+
+                        <v-chip
+                          class="chip-wrapper"
+                          v-if="
+                            item.link ==
                               'https://github.com/maximbetin/maxim-pipelines'
                           "
                         >
