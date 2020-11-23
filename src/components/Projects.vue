@@ -193,6 +193,7 @@
                           <v-icon left>mdi-gitlab</v-icon>
                           CI/CD
                         </v-chip>
+                        
                       </v-card-text>
 
                       <v-divider class="mx-4"></v-divider>
