@@ -83,12 +83,9 @@ export default {
       window.open("https://github.com/maximbetin", "_blank");
     },
     cv: function() {
-      window.open
-        //"https://storage.googleapis.com/phonic-network-281616.appspot.com/Maxim%20Betin%20-%20Resume%20(English).pdf",
-        //"_blank"
+      window.open(
         "https://storage.googleapis.com/maxim-portfolio/Maxim%20Betin%20-%20Resume%20(English).pdf",
         "_blank"
-        //https://storage.googleapis.com/maxim-portfolio/Maxim%20Betin%20-%20Resume%20(English).pdf
       );
     },
     scrolldown: function() {
