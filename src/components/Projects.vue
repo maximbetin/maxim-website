@@ -193,7 +193,6 @@
                           <v-icon left>mdi-gitlab</v-icon>
                           CI/CD
                         </v-chip>
-                        
                       </v-card-text>
 
                       <v-divider class="mx-4"></v-divider>
@@ -370,7 +369,7 @@ export default {
   },
   data: () => ({
     //itemsPerPageOptions: [10, 20, 30],
-    itemsPerPageArray: [6, 12, 24],
+    itemsPerPageArray: [6, 12, 24, 48],
     itemsPerPage: 6,
     page: 1
   })

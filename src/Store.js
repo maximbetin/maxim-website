@@ -27,7 +27,7 @@ export default new Vuex.Store({
           params: { sort: "updated" }
         };
         const res = await axios.get(
-          `https://api.github.com/users/${username}/repos`,
+          `https://api.github.com/users/maximbetin/repos?page=1&per_page=100`,
           get_repos_options
         );
 

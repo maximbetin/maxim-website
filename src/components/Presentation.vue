@@ -72,7 +72,7 @@
 <script>
 export default {
   name: "Presentation",
-  
+
   methods: {
     linkedin: function() {
       window.open("https://www.linkedin.com/in/maxim-betin", "_blank");
