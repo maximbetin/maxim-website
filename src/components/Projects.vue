@@ -179,7 +179,7 @@
                               'https://github.com/maximbetin/vim-cheatsheet'
                           "
                         >
-                          <v-icon left>mdi-langmaximuage-markdown</v-icon>
+                          <v-icon left>mdi-language-markdown</v-icon>
                           Markdown
                         </v-chip>
 
