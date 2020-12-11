@@ -85,7 +85,7 @@ export default {
     },
     cv: function() {
       window.open(
-        "https://storage.googleapis.com/maxim-portfolio/Maxim%20Betin%20-%20Resume%20(English).pdf",
+        "https://storage.googleapis.com/phonic-network-281616.appspot.com/Maxim%20Betin%20-%20Resume%20(English).pdf",
         "_blank"
       );
     },
