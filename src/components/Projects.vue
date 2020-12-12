@@ -132,6 +132,17 @@
                           class="chip-wrapper"
                           v-if="
                             item.link ==
+                              'https://github.com/maximbetin/ansible-playbooks'
+                          "
+                        >
+                          <v-icon left>mdi-ansible</v-icon>
+                          Ansible
+                        </v-chip>
+
+                        <v-chip
+                          class="chip-wrapper"
+                          v-if="
+                            item.link ==
                               'https://github.com/maximbetin/awesome-devsecops'
                           "
                         >
