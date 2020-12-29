@@ -42,8 +42,26 @@
 
         <div class="description">
           <h2 class="font-weight-light position">
+            DevOps Engineer at Flowable, Valencia, Spain
+            <span class="date">11/2020 - Present</span>
+          </h2>
+          <p class="font-weight-normal description-text">
+            Continuing my learning path in DevOps I decided to move on to new challenges and also learn a new Cloud provider - 
+            <a href="https://azure.microsoft.com/en-us/"> Microsoft Azure </a>, by joining <a href="https://flowable.com/">Flowable</a>-<a href="https://www.mimacom.com/en/">mimacom</a> group - a Swiss Software company which surprised me 
+            as to how well they fit me in every single aspect I can think of. I started by scripting and automating 
+            internal processes using Python and PowerShell in order to reduce workloads and human errors, 
+            for which I used GitLab CI/CD pipelines with the intent of migrating the code to Kubernetes (AKS). 
+            Proving IT support to the rest of the company is a very important aspect of my role, and thus I'm also
+            involved in it since I'm also experienced in it from my time in Google Cloud Platform as well.
+          </p>
+        </div> 
+
+        <br />
+
+        <div class="description">
+          <h2 class="font-weight-light position">
             DevOps Engineer at Planeta Huerto, Alicante, Spain
-            <span class="date">10/2020 - Present</span>
+            <span class="date">10/2020 - 11/2020</span>
           </h2>
           <p class="font-weight-normal description-text">
             During my stay in Barcelona, I had a growing concern in the back of
