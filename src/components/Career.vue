@@ -52,7 +52,9 @@
             internal processes using Python and PowerShell in order to reduce workloads and human errors, 
             for which I used GitLab CI/CD pipelines with the intent of migrating the code to Kubernetes (AKS). 
             Proving IT support to the rest of the company is a very important aspect of my role, and thus I'm also
-            involved in it since I'm also experienced in it from my time in Google Cloud Platform as well.
+            involved in it since I'm also experienced in it from my time in Google Cloud Platform as well. On another note,
+            I wanted to move back to a big city from Alicante and therefore Flowable fit my desire quite well, having an 
+            office in Valencia.
           </p>
         </div> 
 
