@@ -4,7 +4,7 @@ import axios from "axios";
 
 Vue.use(Vuex);
 
-const username = "maximbetin";
+//const username = "maximbetin";
 
 export default new Vuex.Store({
   state: {
@@ -53,22 +53,22 @@ export default new Vuex.Store({
         }
 
         //Push forked (I know, code redundancy)
-        for (var repo of res.data) {
-          var repo_name = repo.name;
+        for (var repo2 of res.data) {
+          var repo_name2 = repo.name;
 
           //If a forked repo
           if (repo_name.indexOf("maxim-") === -1) {
             const languages_res = await axios.get(repo.url + "/languages");
-            var updated_at = repo.updated_at.split("T")[0];
+            var updated_at2 = repo.updated_at.split("T")[0];
 
             data.push({
-              name: repo_name,
-              link: repo.html_url,
-              stars: repo.stargazers_count,
-              description: repo.description,
-              updated_at: updated_at,
+              name: repo_name2,
+              link: repo2.html_url,
+              stars: repo2.stargazers_count,
+              description: repo2.description,
+              updated_at: updated_at2,
               languages: languages_res.data,
-              fork: repo.fork
+              fork: repo2.fork
             });
           }
         }

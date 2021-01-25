@@ -15,22 +15,25 @@
         </h1>
         <div class="description">
           <p class="font-weight-normal description-text">
-            Ever since I started indulging myself in DevOps, 
-            I decided that's where I want to stay in, and thus I want to learn 
-            as much as possible on System Administration and Scripting. Cloud
-            Computing is something I took an interest in also – allowing
-            developers to focus on creating applications and eliminating
-            anything that strays away from it is a nifty concept. I currently 
-            have <a href="https://cloud.google.com/">Google Cloud Platform</a> relatively checked, 
-            but I do want to foster other Cloud providers such as 
-            <a href=https://aws.amazon.com/>Amazon Web Services</a>
-            and <a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a>. Aside from that, I would 
-            also like to obtain the C2 (CPE) qualification in English
-            (currently I own the C1 or CAE qualification in English), as I am
-            open to travelling outside Spain such as the US or Canada, which are
-            countries that I have a strong resemblance with and I think I could
-            put this skill to the fullest use. Within Europe, Germany, Switzerland the UK
-            and Ireland are some of my inclinations.
+            Ever since I started indulging myself in DevOps, I decided that's
+            where I want to stay in, and thus I want to learn as much as
+            possible on System Administration and Scripting. Cloud Computing is
+            something I took an interest in also – allowing developers to focus
+            on creating applications and eliminating anything that strays away
+            from it is a nifty concept. I currently have
+            <a href="https://cloud.google.com/">Google Cloud Platform</a>
+            relatively checked, but I do want to foster other Cloud providers
+            such as
+            <a href="https://aws.amazon.com">Amazon Web Services</a>
+            and
+            <a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a>.
+            Aside from that, I would also like to obtain the C2 (CPE)
+            qualification in English (currently I own the C1 or CAE
+            qualification in English), as I am open to travelling outside Spain
+            such as the US or Canada, which are countries that I have a strong
+            resemblance with and I think I could put this skill to the fullest
+            use. Within Europe, Germany, Switzerland the UK and Ireland are some
+            of my inclinations.
           </p>
         </div>
       </v-flex>
@@ -46,17 +49,26 @@
             <span class="date">11/2020 - Present</span>
           </h2>
           <p class="font-weight-normal description-text">
-            Continuing my learning path in DevOps I decided to move on to new challenges and also learn a new Cloud provider - 
-            <a href="https://azure.microsoft.com/en-us/"> Microsoft Azure </a>, by joining <a href="https://flowable.com/">Flowable</a>-<a href="https://www.mimacom.com/en/">mimacom</a> group - a Swiss Software company which surprised me 
-            as to how well they fit me in every single aspect I can think of. I started by scripting and automating 
-            internal processes using Python and PowerShell in order to reduce workloads and human errors, 
-            for which I used GitLab CI/CD pipelines with the intent of migrating the code to Kubernetes (AKS). 
-            Providing IT support to the rest of the company is a very important aspect of my role, and thus I'm also
-            involved in it thanks to my time spent working for  Google Cloud Platform. On another note,
-            I wanted to move back to a big city from Alicante and therefore Flowable fit my desire quite well - having an 
-            office in Valencia.
+            Continuing my learning path in DevOps I decided to move on to new
+            challenges and also learn a new Cloud provider -
+            <a href="https://azure.microsoft.com/en-us/"> Microsoft Azure </a>,
+            by joining <a href="https://flowable.com/">Flowable</a>-<a
+              href="https://www.mimacom.com/en/"
+              >mimacom</a
+            >
+            group - a Swiss Software company which surprised me as to how well
+            they fit me in every single aspect I can think of. I started by
+            scripting and automating internal processes using Python and
+            PowerShell in order to reduce workloads and human errors, for which
+            I used GitLab CI/CD pipelines with the intent of migrating the code
+            to Kubernetes (AKS). Providing IT support to the rest of the company
+            is a very important aspect of my role, and thus I'm also involved in
+            it thanks to my time spent working for Google Cloud Platform. On
+            another note, I wanted to move back to a big city from Alicante and
+            therefore Flowable fit my desire quite well - having an office in
+            Valencia.
           </p>
-        </div> 
+        </div>
 
         <br />
 
@@ -67,34 +79,47 @@
           </h2>
           <p class="font-weight-normal description-text">
             During my stay in Barcelona, I had a growing concern in the back of
-            my head in regards to not having finished one subject in my Computer Engineering degree, 
-            namely <a href="https://cvnet.cpd.ua.es/Guia-Docente/?wlengua=en&wcodasi=34027&scaca=2020-21">SSPT</a>.
-            I decided to leave Barcelona to get that matter settled with in Alicante (and I did), with plans of coming back. 
-            To my misfortune (and everyone's really) the world decided it was time to spread a pandemic, 
-            and long story short, I could not return in May. Fortunately enough, 
-            I used the summer time to get <a href="https://www.credential.net/828e8f35-dfeb-4335-819d-0ac651ad5c7f">certified</a> 
-            in Google Cloud Platform, create this website, and consider what professional course to take next. 
-            I was looking for something that had some sort of Programming, Technical Support and Cloud Computing mixed in - 
-            things that I worked with in the past, and hence, DevOps appeared in my Google search. 
-            While staying in Alicante I found and joined <a href="https://www.planetahuerto.es/">Planeta Huerto</a> - 
-            an e-commerce company that sells environmentally friendly products in Spain and Portugal. And henceforth, 
-            I was officially sold on the DevOps concept and started dealing with and learning a lot about Kubernetes, 
-            Docker, System Administration, CI/CD, IaC, Monitoring and Logging, Incident Management, 
-            Agile Methodologies, etc. Planeta Huerto coincidentally used both PHP and Vue.js - the two web
+            my head in regards to not having finished one subject in my Computer
+            Engineering degree, namely
+            <a
+              href="https://cvnet.cpd.ua.es/Guia-Docente/?wlengua=en&wcodasi=34027&scaca=2020-21"
+              >SSPT</a
+            >. I decided to leave Barcelona to get that matter settled with in
+            Alicante (and I did), with plans of coming back. To my misfortune
+            (and everyone's really) the world decided it was time to spread a
+            pandemic, and long story short, I could not return in May.
+            Fortunately enough, I used the summer time to get
+            <a
+              href="https://www.credential.net/828e8f35-dfeb-4335-819d-0ac651ad5c7f"
+              >certified</a
+            >
+            in Google Cloud Platform, create this website, and consider what
+            professional course to take next. I was looking for something that
+            had some sort of Programming, Technical Support and Cloud Computing
+            mixed in - things that I worked with in the past, and hence, DevOps
+            appeared in my Google search. While staying in Alicante I found and
+            joined <a href="https://www.planetahuerto.es/">Planeta Huerto</a> -
+            an e-commerce company that sells environmentally friendly products
+            in Spain and Portugal. And henceforth, I was officially sold on the
+            DevOps concept and started dealing with and learning a lot about
+            Kubernetes, Docker, System Administration, CI/CD, IaC, Monitoring
+            and Logging, Incident Management, Agile Methodologies, etc. Planeta
+            Huerto coincidentally used both PHP and Vue.js - the two web
             technologies I also used in the past so they captured my attention.
           </p>
-        </div> 
+        </div>
 
         <br />
 
         <div class="description">
           <h2 class="font-weight-light position">
-            Technical Solutions Representative for
-            Google Cloud Platform at Webhelp Group, Barcelona, Spain
+            Technical Solutions Representative for Google Cloud Platform at
+            Webhelp Group, Barcelona, Spain
             <span class="date">09/2018 - 01/2020</span>
           </h2>
           <p class="font-weight-normal description-text">
-            After having almost completed my Computer Engineering degree, I joined
+            After having almost completed my Computer Engineering degree, I
+            joined
             <a href="https://www.webhelp.com/en-es/">Webhelp Group</a>
             (previously known as Sellbytel Group), more specifically the
             <a href="https://cloud.google.com/">Google Cloud Platform</a>
