@@ -51,22 +51,32 @@
           <p class="font-weight-normal description-text">
             Continuing my learning path in DevOps I decided to move on to new
             challenges and also learn a new Cloud provider -
-            <a href="https://azure.microsoft.com/en-us/"> Microsoft Azure </a>,
+            <a href="https://azure.microsoft.com/en-us/"> Microsoft Azure</a>,
             by joining <a href="https://flowable.com/">Flowable</a>-<a
               href="https://www.mimacom.com/en/"
               >mimacom</a
             >
             group - a Swiss Software company which surprised me as to how well
-            they fit me in every single aspect I can think of. I started by
-            scripting and automating internal processes using Python and
-            PowerShell in order to reduce workloads and human errors, for which
-            I used GitLab CI/CD pipelines with the intent of migrating the code
-            to Kubernetes (AKS). Providing IT support to the rest of the company
-            is a very important aspect of my role, and thus I'm also involved in
-            it thanks to my time spent working for Google Cloud Platform. On
-            another note, I wanted to move back to a big city from Alicante and
-            therefore Flowable fit my desire quite well - having an office in
-            Valencia.
+            organized and planified the working culture is, even during a
+            pandemic - this was very evident during my onboarding process; I'm
+            very appreciative of such consideration towards others. My first
+            project in Flowable was the task of automating all possible internal
+            processes to reduce human error and manual workload from others -
+            using mainly Python and Bash, but with some sprinkles of PowerShell
+            as Microsoft is the predominant provider. I switched to GitLab as
+            the CI/CD tool which I was very impresses by, since it has many more
+            features I found lacking in Bitbucket pipelines. Kubernetes (AKS) is
+            one knowledge I'm expanding greatly on, especially Monitoring and
+            Alerting - Prometheus, Grafana, Alertmanager and PagerDuty are no
+            stranger. A very big emphasis is on IaC as well - every change in
+            the infrastracture has to be tracked, and done through tools such as
+            Terraform and Ansible; GitOps has big role in this area as well.
+            Providing IT support to the rest of the company is another task of
+            mine, and thus I'm also involved in it thanks to my time spent
+            working for Google Cloud Platform. On another note, I wanted to move
+            back to a big city, away from Alicante and therefore Flowable fit my
+            desire quite well - having an office in Valencia, a city that in my
+            opinion is the middle ground between Alicante and Barcelona.
           </p>
         </div>
 
