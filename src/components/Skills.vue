@@ -25,14 +25,14 @@
           fontColor="white"
           barColor="#B0BEC5"
           skill="Python"
-          level="70"
+          level="75"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
           skill="Bash/Shell"
-          level="70"
+          level="75"
         />
         <skill-bar
           barSize="small"
@@ -45,28 +45,14 @@
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Java"
+          skill="Terraform"
           level="70"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="PHP"
-          level="70"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="HTML"
-          level="70"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="CSS"
+          skill="Ansible"
           level="70"
         />
         <skill-bar
@@ -87,20 +73,6 @@
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="C/C++"
-          level="65"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="JavaScript"
-          level="65"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
           skill="SQL"
           level="65"
         />
@@ -108,7 +80,7 @@
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Node.js"
+          skill="Java"
           level="65"
         />
         <skill-bar
@@ -122,15 +94,65 @@
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Go"
+          skill="PHP"
           level="65"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
+          skill="HTML"
+          level="65"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="CSS"
+          level="65"
+        />
+
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
           skill="UI/UX"
           level="65"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="Azure"
+          level="60"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="JavaScript"
+          level="60"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="Node.js"
+          level="60"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="C/C++"
+          level="60"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="Go"
+          level="60"
         />
         <skill-bar
           barSize="small"
@@ -144,14 +166,14 @@
           fontColor="white"
           barColor="#B0BEC5"
           skill="P. Photon"
-          level="60"
+          level="55"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
           skill="Arduino"
-          level="60"
+          level="55"
         />
       </v-col>
     </v-flex>
