@@ -27,7 +27,10 @@
             <a href="https://aws.amazon.com">Amazon Web Services</a>
             and
             <a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a>.
-            Aside from that, I would also like to obtain the C2 (CPE)
+            Another certification that I'd like to add to my portfolio is the <a
+              href="https://www.cncf.io/certification/cka/"
+              >Certified Kubernetes Administrator (CKA)</a
+            >. Aside from that, I would also like to obtain the C2 (CPE)
             qualification in English (currently I own the C1 or CAE
             qualification in English), as I am open to travelling outside Spain
             such as the US or Canada, which are countries that I have a strong
