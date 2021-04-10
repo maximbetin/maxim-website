@@ -110,7 +110,7 @@ export default {
   name: "About",
   data: function() {
     return {
-      series: [17, 15, 13, 12, 10, 8, 6, 6, 5, 5, 3],
+      series: [20, 15, 15, 15, 10, 5, 5, 5, 5, 5],
       chartOptions: {
         chart: {
           type: "pie"
@@ -140,14 +140,13 @@ export default {
         ],
         labels: [
           "Coding",
+          "Jogging",
+          "Guitar",
           "Movies/TV Shows",
           "Gaming",
-          "Languages",
-          "Jogging",
           "Travelling",
           "Boxing",
           "Yoga",
-          "Guitar",
           "Volunteering",
           "Trekking"
         ],
