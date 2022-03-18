@@ -95,22 +95,24 @@ import VueApexCharts from "vue-apexcharts";
 Vue.use(VueApexCharts);
 Vue.component("apexchart", VueApexCharts);
 
-/*"Coding",
-          "Movies/TV Shows",
-          "Languages",
-	        "Travelling",
-          "Gaming",
-          "Jogging",
-          "Yoga",
-          "Guitar",
-          "Volunteering",
-          "Trekking"*/
+/*
+"Coding",
+"Movies/TV Shows",
+"Travelling",
+"Jogging",
+"Rock climbing",
+"Boxing",
+"Gaming",
+"Guitar",
+"Chess",
+"Mindfulness",
+*/
 
 export default {
   name: "About",
   data: function() {
     return {
-      series: [20, 15, 15, 15, 10, 5, 5, 5, 5, 5],
+      series: [15, 15, 10, 10, 10, 10, 10, 10, 5, 5],
       chartOptions: {
         chart: {
           type: "pie"
