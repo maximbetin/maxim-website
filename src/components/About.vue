@@ -97,10 +97,10 @@ Vue.component("apexchart", VueApexCharts);
 
 /*
 "Coding",
-"Movies/TV Shows",
+"Movies",
 "Travelling",
 "Jogging",
-"Rock climbing",
+"Climbing",
 "Boxing",
 "Gaming",
 "Guitar",
@@ -142,15 +142,15 @@ export default {
         ],
         labels: [
           "Coding",
-          "Jogging",
-          "Guitar",
-          "Movies/TV Shows",
-          "Gaming",
+          "Movies",
           "Travelling",
+          "Jogging",
+          "Climbing",
           "Boxing",
-          "Yoga",
-          "Volunteering",
-          "Trekking"
+          "Gaming",
+          "Guitar",
+          "Chess",
+          "Mindfulness",
         ],
         theme: {
           mode: "light",
