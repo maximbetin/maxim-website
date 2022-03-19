@@ -67,7 +67,7 @@
             processes to reduce human error and manual workload from others -
             using mainly Python and Bash, but with some sprinkles of PowerShell
             as Microsoft is the predominant provider. I switched to GitLab as
-            the CI/CD tool which I was very impresses by, since it has many more
+            the CI/CD tool which I was very impressed by, as it has many more
             features I found lacking in Bitbucket pipelines. I'm involved in
             managing Kubernetes (AKS) clusters and in building infrastracture
             solutions with it, as well as configuring Prometheus along with
@@ -76,11 +76,17 @@
             Alertmanager and Opsgenie are something I always take into account
             for getting notified of any kind of incident. A very big emphasis is
             on IaC as well - every change in the infrastracture has to be
-            tracked, and done through tools such as Terraform and Ansible;
-            GitOps has big role in this area as well. Providing IT support to
-            the rest of the company is another task of mine, and thus I'm also
-            involved in it thanks to my time spent working for Google Cloud
-            Platform. On another note, I wanted to move back to a big city, away
+            tracked and done through tools such as Terraform and Ansible;
+            GitOps has big role in this area as well. Since
+            <a
+              href="https://en.wikipedia.org/wiki/Total_quality_management"
+              >TQMI</a
+            >
+            is big player here, I'm
+            also involved in Business Continuity Management solutions.
+            Providing IT support to the rest of the company is another task of mine,
+            hence naturally it's another area I'm active in.
+            On a non-technical note, I wanted to move back to a big city, away
             from Alicante and therefore Flowable fit my desire quite well -
             having an office in Valencia, a city that in my opinion is the
             middle ground between Alicante and Barcelona.

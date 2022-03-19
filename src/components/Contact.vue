@@ -34,16 +34,6 @@
                 class="button"
                 outlined
                 rounded
-                href="mailto:betinmaxim@gmail.com"
-              >
-                <v-icon>mdi-email</v-icon>
-              </v-btn>
-            </v-col>
-            <v-col class="mx-8">
-              <v-btn
-                class="button"
-                outlined
-                rounded
                 href="https://www.instagram.com/maximbetin/"
               >
                 <v-icon>mdi-instagram</v-icon>
@@ -54,9 +44,7 @@
 
         <v-row class="mt-10">
           <p style="text-align:center" class="font-weight-normal">
-            My preferred method of contact is through my email
-            (<a>betinmaxim@gmail.com</a>), if you have other proposals, please
-            contact me through it first or message me on my LinkedIn
+            My preferred method of contact is through my LinkedIn
             <a href="https://www.linkedin.com/in/maxim-betin/">page</a>.
           </p>
         </v-row>
@@ -72,11 +60,8 @@ export default {
     linkedin: function() {
       window.open("https://www.linkedin.com/in/maxim-betin/", "_blank");
     },
-    email: function() {
-      window.open("mailto:betinmaxim@gmail.com", "_blank");
-    },
     instagram: function() {
-      window.open("https://www.instagram.com/maximbetin15/", "_blank");
+      window.open("https://www.instagram.com/maximbetin/", "_blank");
     },
     scrolldown: function() {
       window.open("#none", "_blank");
