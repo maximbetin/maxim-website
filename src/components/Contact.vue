@@ -34,7 +34,7 @@
                 class="button"
                 outlined
                 rounded
-                href="https://www.instagram.com/maximbetin/"
+                href="https://www.instagram.com/maxim_93b/"
               >
                 <v-icon>mdi-instagram</v-icon>
               </v-btn>
