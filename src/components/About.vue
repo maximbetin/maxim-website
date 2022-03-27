@@ -18,8 +18,8 @@
               >ARA</a
             >
             (Alto Rendimiento Académico or High Academic Performance in English)
-            group. I’ve been living in Spain
-            through the majority of my life and also studied
+            group. I’ve been living in Spain through the majority of my life and
+            also studied
             <a href="https://www.ibo.org/">International Baccalaureate</a> in
             Sweden (English-coursed), and thus I speak both Spanish and English
             fluently, albeit with a stronger proficiency in English due to

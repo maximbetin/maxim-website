@@ -69,13 +69,13 @@
             as Microsoft is the predominant provider. I switched to GitLab as
             the CI/CD tool which I was very impressed by, as it has many more
             features I found lacking in Bitbucket pipelines. I'm involved in
-            managing Kubernetes (AKS) clusters and in building infrastracture
+            managing Kubernetes (AKS) clusters and in building infrastructure
             solutions with it, as well as configuring Prometheus along with
             Grafana for monitoring both Linux and Windows hosts. Since anything
             can go wrong at any time, and response times are critical,
             Alertmanager and Opsgenie are something I always take into account
             for getting notified of any kind of incident. A very big emphasis is
-            on IaC as well - every change in the infrastracture has to be
+            on IaC as well - every change in the infrastructure has to be
             tracked and done through tools such as Terraform and Ansible; GitOps
             has big role in this area as well. Since
             <a href="https://en.wikipedia.org/wiki/Total_quality_management"
@@ -84,10 +84,7 @@
             is big player here, I'm also involved in Business Continuity
             Management solutions. Providing IT support to the rest of the
             company is another task of mine, hence naturally it's another area
-            I'm active in. On a non-technical note, I wanted to move back to a
-            big city, away from Alicante and therefore Flowable fit my desire
-            quite well - having an office in Valencia, a city that in my opinion
-            is the middle ground between Alicante and Barcelona.
+            I'm active in.
           </p>
         </div>
 
@@ -236,14 +233,14 @@
           </h2>
           <p class="font-weight-normal description-text">
             After moving back to Spain, my IB education was unfortunately
-            halted. To my surprise and sadly, I wasn’t able to continue where I
+            halted. To my surprise and sadly, I wasn't able to continue where I
             left off - having to start over, and losing 2 years of education in
             the process. Due to IB not being compatible with Spain’s regular
             baccalaureate, and not being free unlike in Sweden (in fact it is
             very pricy), I had little choice. I joined a semi-private High
             School called
             <a href="http://www.carmelitastorrevieja.com/">CMT La Purísima</a>.
-            Once again, I exceled at Physics, Mathematics and English. My
+            Once again, I excelled at Physics, Mathematics and English. My
             average mark of the two years I spent here was of 8,12/10.
           </p>
         </div>
@@ -264,7 +261,7 @@
             where I first contemplated and considered what would I study in
             college. Physics and Mathematics were my strongest points, thus
             naturally, these were my initial prospects, Computer Engineering was
-            on the horizon as well, but I wouldn’t finally decide until a few
+            on the horizon as well, but I wouldn't finally decide until a few
             years later. The
             <a href="https://www.ibo.org/programmes/diploma-programme/"
               >IB Diploma Programme</a
