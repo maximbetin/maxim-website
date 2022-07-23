@@ -28,12 +28,12 @@
           <p class="text-justify">
             I consider myself as a very observant and analytical person. Before
             taking action or making important decisions, I often methodically
-            evaluate and consider the possible outcomes. In my daily life, this helps me in keeping
-            my thoughts in check, have an objective point of view, remain calm
-            and avoid possibly hasty decisions. I'm also naturally curious - I
-            pay close attention to details and allow myself to be inspired by
-            others to learn - either in IT, history, culture, economics, or getting started
-            with a new hobby.
+            evaluate and consider the possible outcomes. In my daily life, this
+            helps me in keeping my thoughts in check, have an objective point of
+            view, remain calm and avoid possibly hasty decisions. I'm also
+            naturally curious - I pay close attention to details and allow
+            myself to be inspired by others to learn - either in IT, history,
+            culture, economics, or getting started with a new hobby.
           </p>
           <p class="text-justify">
             I've also learned that I'm very sensitive to giving back - I enjoy
