@@ -31,6 +31,6 @@ npm run lint
 
 The `npm run build` command will compile the files onto the `dist` folder. 
 
-To upload the the project to a GAE service run:
+To upload the project to a GAE service run:
 
 `gcloud app deploy app.yaml` 

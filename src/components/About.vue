@@ -22,39 +22,31 @@
             also studied
             <a href="https://www.ibo.org/">International Baccalaureate</a> in
             Sweden (English-coursed), and thus I speak both Spanish and English
-            fluently, albeit with a stronger proficiency in English due to
-            simply being stuck in using it in my daily life ever since my IB
-            endeavour.
+            fluently, albeit with a stronger proficiency in English due to it
+            simply being stuck with me ever since my IB endeavour.
           </p>
           <p class="text-justify">
-            I enjoy solving hard and deep-thought problems, often analyzing
-            every possibility and outcome before deciding on which path to take
-            in order to achieve effectiveness and efficiency in what I’m doing,
-            hence a took a liking for writing logic-based code and decided to
-            follow said path. Machine Learning is one of the concepts that I
-            allow myself to deem as a wander in what it can accomplish in this
-            field - later on, I decided to apply it onto real-world issues such
-            as bullying and its detection and prevention in my final thesis
-            <a href="http://rua.ua.es/dspace/handle/10045/80396?locale=en"
-              >here</a
-            >.
+            I consider myself as a very observant and analytical person. Before
+            taking action or making important decisions, I often methodically
+            evaluate and consider the possible outcomes. In my daily life, this helps me in keeping
+            my thoughts in check, have an objective point of view, remain calm
+            and avoid possibly hasty decisions. I'm also naturally curious - I
+            pay close attention to details and allow myself to be inspired by
+            others to learn - either in IT, history, culture, economics, or getting started
+            with a new hobby.
           </p>
           <p class="text-justify">
-            I always aim to cultivate myself, either in the IT field, language,
-            culture or others, being predisposed to learn something new every
-            day, be it a word, a new development methodology or something
-            customary. Technology especially, advances at an unprecedented rate
-            nowadays, so there’s always something to learn. Amongst other
-            interests that I enjoy and aren't as self-centered is the principle
-            of helping others, which is why working as Technical Solutions
-            Representative for Google Cloud Platform drew my attention – I enjoy
-            being cordial and of help to someone, since I know what it’s like to
-            be on the other side. The choice to tackle bullying in elementary
-            schools for my thesis was something based around this idea as well.
-            On a last note, this goes beyond my professional or educational life
-            as well – I actively look for volunteer work in my hometown of
-            Alicante if time affords it, disregarding whether it is related to
-            IT or if it would be beneficial to me.
+            I've also learned that I'm very sensitive to giving back - I enjoy
+            helping others through any means at my disposal. I perceive a strong
+            sense of accomplishment whenever I'm able to help someone who's
+            struggling and make life easier for them. I generally try to listen,
+            understand and help to the best of my abilities, since often times,
+            we're not that different, and struggles I've been through and how
+            I've overcome them, may be valuable to someone else. Back in my
+            college days while writing my thesis, of all the topics I could
+            choose from and thought of, I was captivated by the topic of school
+            bullying and chose to code a solution that could help in that
+            regard.
           </p>
           <v-col align="center">
             <v-card outlined max-width="600" color="white">
