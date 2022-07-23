@@ -14,7 +14,7 @@
         Maxim Betin
       </div>
       <div class="display-1 font-weight-thin black--text text-xs-center">
-        Computer Engineer
+        DevOps Engineer
       </div>
     </div>
 
