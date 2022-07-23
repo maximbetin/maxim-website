@@ -15,28 +15,24 @@
         </h1>
         <div class="description">
           <p class="font-weight-normal description-text">
-            Ever since I started indulging myself in DevOps, I decided that's
-            where I want to stay in, and thus I want to learn as much as
-            possible on System Administration and Scripting. Cloud Computing is
-            something I took an interest in also – allowing developers to focus
-            on creating applications and eliminating anything that strays away
-            from it is a nifty concept. I currently have
-            <a href="https://cloud.google.com/">Google Cloud Platform</a>
-            relatively checked, but I do want to foster other Cloud providers
-            such as
-            <a href="https://aws.amazon.com">Amazon Web Services</a>
-            and
-            <a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a>.
-            Another certification that I'd like to add to my portfolio is the
+            The DevOps culture is something I took an interest in a few years
+            ago and I want to keep nurturing. It fits my personna of helping
+            others and I also like the fact that it’s a very broad concept
+            covering many areas and allowing you to hop between topics without
+            getting tired of doing the same over and over, and developing not
+            just technical but also interpersonal skills, which in my opinion
+            sometimes weigh more than what you can do with your mouse and
+            keyboard. Although I’m a learner, I’m not a fan of certifications -
+            they can be handy but are not fault-proof. I had passed the ACE
+            certification from GCP years ago, and I can’t say it was really
+            worth it. One can learn about anything he or she is truly interested
+            in without setting the goals of having a title. Although I initially
+            contemplated the option of obtaining the
             <a href="https://www.cncf.io/certification/cka/"
               >Certified Kubernetes Administrator (CKA)</a
-            >. Aside from that, I would also like to obtain the C2 (CPE)
-            qualification in English (currently I own the C1 or CAE
-            qualification in English), as I am open to travelling outside Spain
-            such as the US or Canada, which are countries that I have a strong
-            resemblance with and I think I could put this skill to the fullest
-            use. Within Europe, Germany, Switzerland the UK and Ireland are some
-            of my inclinations.
+            >, I can say that I learned much through daily on-hands practice,
+            and for the moment, although there is definitely room for acquiring
+            more knowledge, I’m comfortable where I am.
           </p>
         </div>
       </v-flex>
