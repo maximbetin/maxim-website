@@ -17,162 +17,98 @@
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="GCP"
+          skill="Scripting"
+          level="90"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="Support"
+          level="85"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="Quality Analysis"
           level="80"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Python"
+          skill="Patch Management"
           level="75"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Bash/Shell"
+          skill="Incident Handling"
           level="75"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Linux/Unix"
-          level="70"
+          skill="Monitoring"
+          level="75"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Terraform"
-          level="70"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Ansible"
-          level="70"
+          skill="BCM"
+          level="75"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
           skill="Kubernetes"
+          level="70"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="Cloud"
+          level="70"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="IaC"
+          level="70"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="Containerization"
+          level="70"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="Virtualization"
           level="65"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Docker"
-          level="65"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="SQL"
-          level="65"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Java"
-          level="65"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Maven"
-          level="65"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="PHP"
-          level="65"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="HTML"
-          level="65"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="CSS"
-          level="65"
-        />
-
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="UI/UX"
-          level="65"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Azure"
+          skill="Security"
           level="60"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="JavaScript"
-          level="60"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Node.js"
-          level="60"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="C/C++"
-          level="60"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Go"
-          level="60"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Swift"
-          level="60"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="P. Photon"
-          level="55"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Arduino"
+          skill="Networking"
           level="55"
         />
       </v-col>
