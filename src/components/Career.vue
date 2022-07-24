@@ -49,38 +49,59 @@
           </h2>
           <p class="font-weight-normal description-text">
             Continuing my learning path in DevOps I decided to move on to new
-            challenges and also learn a new Cloud provider -
-            <a href="https://azure.microsoft.com/en-us/"> Microsoft Azure</a>,
-            by joining <a href="https://flowable.com/">Flowable</a>-<a
-              href="https://www.mimacom.com/en/"
-              >mimacom</a
-            >
-            group - a Swiss Software company which surprised me as to how well
-            organized and planified the working culture is, even during a
+            challenges and also learn a new Cloud provider - Microsoft Azure, by
+            joining Flowable group - a Swiss Software company which surprised me
+            as to how well organized the working culture is, even during a
             pandemic - this was very evident during my onboarding process; I'm
-            very appreciative of such consideration towards others. My first
-            project in Flowable was the task of automating all possible internal
-            processes to reduce human error and manual workload from others -
-            using mainly Python and Bash, but with some sprinkles of PowerShell
-            as Microsoft is the predominant provider. I switched to GitLab as
-            the CI/CD tool which I was very impressed by, as it has many more
-            features I found lacking in Bitbucket pipelines. I'm involved in
-            managing Kubernetes (AKS) clusters and in building infrastructure
-            solutions with it, as well as configuring Prometheus along with
-            Grafana for monitoring both Linux and Windows hosts. Since anything
-            can go wrong at any time, and response times are critical,
-            Alertmanager and Opsgenie are something I always take into account
-            for getting notified of any kind of incident. A very big emphasis is
-            on IaC as well - every change in the infrastructure has to be
-            tracked and done through tools such as Terraform and Ansible; GitOps
-            has big role in this area as well. Since
-            <a href="https://en.wikipedia.org/wiki/Total_quality_management"
-              >TQMI</a
-            >
-            is big player here, I'm also involved in Business Continuity
-            Management solutions. Providing IT support to the rest of the
-            company is another task of mine, hence naturally it's another area
-            I'm active in.
+            very appreciative of such consideration towards others. I’m working
+            remotely and autonomously with no to little supervision. For the
+            most part, I have the freedom and trust to appropriately prioritize
+            both planned and unplanned topics. While also gaging the complexity,
+            stakeholder’s requirements, urgency and other factors that come into
+            play when committing to implementing or providing services.
+          </p>
+          <p class="font-weight-normal description-text">
+            Going into the specifics, I started off with Automation - scripting
+            out repetitive and tedious tasks and workflows. Thus reducing human
+            error and saving up time for others to invest into more valuable
+            tasks - using mainly Python and Bash, but with some sprinkles of
+            PowerShell as Microsoft is the predominant Cloud provider. With a
+            solid Automation in place, the team was able to spend time on more
+            Operational topics. I moved on to administering many
+            Kubernetes-hosted applications such as GitLab, SonarQube and Nexus
+            IQ - communicating and handling incidents, upgrades, managing DB
+            migrations, evaluating improvements, etc.
+          </p>
+          <p class="font-weight-normal description-text">
+            To solidify our SLAs, I decided to improve and build new Monitoring
+            and Alerting solutions. I spun up new metric scraping solutions for
+            Prometheus, configured Business-critical alerting rules through
+            Alertmanager and built an integration of Opsgenie with Jira to
+            facilitate the creation and tracking of alerts sent by Alertmanager.
+            I actively write new Runbooks to help the team in troubleshooting or
+            generally finding their way around by writing comprehensive and
+            extensive documentation, with a lot of attention to detail. Another
+            integration that I largely collaborated in is the user provisioning
+            (and de-provisioning) with Workday (ERP), where security and testing
+            had a big emphasis to build a solid solution and have a reliable new
+            operational service.
+          </p>
+          <p class="font-weight-normal description-text">
+            Most changes in the infrastructure follow the IaC methodology, and
+            thus they’re done through Terraform whenever possible so as to keep
+            track of the changes. While managing the configuration of the
+            infrastructure is done through Ansible. In a similar fashion, GitOps
+            is also a common practice and I made several changes and
+            improvements to ArgoCD. As for the change management itself, I
+            proposed several improvements positively received by the team. I
+            actively help in handling and analyzing Business Continuity
+            Management approaches, so as to be able to recover from a possible
+            loss of data in a timely manner - establishing backup procedures for
+            different services and carrying out their corresponding restore
+            tests. Lastly, providing Support to employees, both technical and
+            non-technical minded is another task I engage in, as well as
+            mentoring some team members and conducting interviews that have
+            successfully contributed in the hiring of co-workers.
           </p>
         </div>
 

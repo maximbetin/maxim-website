@@ -46,7 +46,9 @@
             college days while writing my thesis, of all the topics I could
             choose from and thought of, I was captivated by the topic of school
             bullying and chose to code a solution that could help in that
-            regard.
+            regard. I'm not fond of unjust or unfair treatment, and will usually
+            take strong action. When it comes to backing up my own, I may even
+            take the bullet myself in some situations.
           </p>
           <v-col align="center">
             <v-card outlined max-width="600" color="white">
