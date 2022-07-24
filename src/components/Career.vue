@@ -16,7 +16,7 @@
         <div class="description">
           <p class="font-weight-normal description-text">
             The DevOps culture is something I took an interest in a few years
-            ago and I want to keep nurturing. It fits my personna of helping
+            ago and I want to keep nurturing. It fits my persona of helping
             others and I also like the fact that it’s a very broad concept
             covering many areas and allowing you to hop between topics without
             getting tired of doing the same over and over, and developing not
@@ -50,7 +50,7 @@
           <p class="font-weight-normal description-text">
             Continuing my learning path in DevOps I decided to move on to new
             challenges and also learn a new Cloud provider - Microsoft Azure, by
-            joining Flowable group - a Swiss Software company which surprised me
+            joining Flowable group - a Swiss BPM Software company which surprised me
             as to how well organized the working culture is, even during a
             pandemic - this was very evident during my onboarding process; I'm
             very appreciative of such consideration towards others. I’m working
