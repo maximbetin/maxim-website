@@ -32,7 +32,7 @@
               >Certified Kubernetes Administrator (CKA)</a
             >, I can say that I learned much through daily on-hands practice,
             and for the moment, although there is definitely room for acquiring
-            more knowledge, I’m comfortable where I am.
+            more knowledge on Kubernetes, I’m comfortable where I am.
           </p>
         </div>
       </v-flex>
@@ -50,58 +50,56 @@
           <p class="font-weight-normal description-text">
             Continuing my learning path in DevOps I decided to move on to new
             challenges and also learn a new Cloud provider - Microsoft Azure, by
-            joining Flowable group - a Swiss BPM Software company which surprised me
-            as to how well organized the working culture is, even during a
-            pandemic - this was very evident during my onboarding process; I'm
-            very appreciative of such consideration towards others. I’m working
-            remotely and autonomously with no to little supervision. For the
-            most part, I have the freedom and trust to appropriately prioritize
-            both planned and unplanned topics. While also gaging the complexity,
-            stakeholder’s requirements, urgency and other factors that come into
-            play when committing to implementing or providing services.
+            joining Flowable group - a Swiss BPM Software company which
+            surprised me as to how well organized the working culture is, even
+            during a pandemic - this was very evident during my onboarding
+            process; I'm very appreciative of such consideration towards others.
+            I’m working remotely and autonomously with no to little supervision.
+            For the most part, I have the freedom and trust to appropriately
+            prioritize both planned and unplanned topics. While also gaging the
+            complexity, stakeholder’s requirements, urgency and other factors
+            that come into play when committing to implementing or providing
+            services.
           </p>
           <p class="font-weight-normal description-text">
-            Going into the specifics, I started off with Automation - scripting
-            out repetitive and tedious tasks and workflows. Thus reducing human
-            error and saving up time for others to invest into more valuable
-            tasks - using mainly Python and Bash, but with some sprinkles of
-            PowerShell as Microsoft is the predominant Cloud provider. With a
-            solid Automation in place, the team was able to spend time on more
-            Operational topics. I moved on to administering many
-            Kubernetes-hosted applications such as GitLab, SonarQube and Nexus
-            IQ - communicating and handling incidents, upgrades, managing DB
-            migrations, evaluating improvements, etc.
+            I played a big role in Automation - scripting out repetitive and
+            tedious tasks and workflows. Thus reducing human error and freeing
+            up time to invest into more valuable tasks - using mainly Python,
+            Bash, with some sprinkles of PowerShell and GitLab's CI/CD
+            pipelines.
           </p>
           <p class="font-weight-normal description-text">
-            To solidify our SLAs, I decided to improve and build new Monitoring
-            and Alerting solutions. I spun up new metric scraping solutions for
-            Prometheus, configured Business-critical alerting rules through
-            Alertmanager and built an integration of Opsgenie with Jira to
-            facilitate the creation and tracking of alerts sent by Alertmanager.
-            I actively write new Runbooks to help the team in troubleshooting or
-            generally finding their way around by writing comprehensive and
-            extensive documentation, with a lot of attention to detail. Another
-            integration that I largely collaborated in is the user provisioning
-            (and de-provisioning) with Workday (ERP), where security and testing
-            had a big emphasis to build a solid solution and have a reliable new
-            operational service.
+            I am administering many Kubernetes-hosted applications such as
+            GitLab, SonarQube and Nexus IQ - communicating and handling
+            incidents, upgrades, migrations, evaluating improvements, etc.
           </p>
           <p class="font-weight-normal description-text">
-            Most changes in the infrastructure follow the IaC methodology, and
-            thus they’re done through Terraform whenever possible so as to keep
-            track of the changes. While managing the configuration of the
-            infrastructure is done through Ansible. In a similar fashion, GitOps
-            is also a common practice and I made several changes and
-            improvements to ArgoCD. As for the change management itself, I
-            proposed several improvements positively received by the team. I
-            actively help in handling and analyzing Business Continuity
-            Management approaches, so as to be able to recover from a possible
-            loss of data in a timely manner - establishing backup procedures for
-            different services and carrying out their corresponding restore
-            tests. Lastly, providing Support to employees, both technical and
-            non-technical minded is another task I engage in, as well as
-            mentoring some team members and conducting interviews that have
-            successfully contributed in the hiring of co-workers.
+            I make new additions and keep improving the Monitoring and Alerting
+            area to monitor Business-critical workloads, and thus solidifying
+            the SLAs and increasing observability using Prometheus, Alertmanager
+            and Opsgenie. I actively write new Runbooks to help in
+            troubleshooting or generally finding one's way around through the
+            use of comprehensive and extensively written documentation with a
+            lot of attention to detail. An integration that I also played a big
+            role and invested in was with the ERP system, where security and
+            testing had a big emphasis to build a solid solution and have a
+            reliable operational service.
+          </p>
+          <p class="font-weight-normal description-text">
+            When making changes on the infrastructure I follow an IaC
+            methodology using Terraform so as to keep track, promote
+            collaboration and minimize errors. Similarly, when configuration
+            changes are required I use Ansible or leverage ArgoCD (GitOps).
+          </p>
+          <p class="font-weight-normal description-text">
+            I actively engage in the analysis, decision-making and
+            implementation of internal processes related to
+            <a href="https://en.wikipedia.org/wiki/ITIL">ITIL</a>.
+          </p>
+          <p class="font-weight-normal description-text">
+            And last but not least, I provide Support to both technical and
+            non-technical co-workers, play a mentoring role, and took part in
+            interviews that have contributed in new talent acquisitions.
           </p>
         </div>
 
