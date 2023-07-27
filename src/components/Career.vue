@@ -9,33 +9,33 @@
 
       <v-divider color="gray"></v-divider>
 
-      <v-flex class="text-xs-left">
-        <h1 class="font-weight-light mt-10 mb-5 experience">
-          My future prospects
-        </h1>
-        <div class="description">
-          <p class="font-weight-normal description-text">
-            The DevOps culture is something I took an interest in a few years
-            ago and I want to keep nurturing. It fits my persona of helping
-            others and I also like the fact that it’s a very broad concept
-            covering many areas and allowing you to hop between topics without
-            getting tired of doing the same over and over, and developing not
-            just technical but also interpersonal skills, which in my opinion
-            sometimes weigh more than what you can do with your mouse and
-            keyboard. Although I’m a learner, I’m not a fan of certifications -
-            they can be handy but are not fault-proof. I had passed the ACE
-            certification from GCP years ago, and I can’t say it was really
-            worth it. One can learn about anything he or she is truly interested
-            in without setting the goals of having a title. Although I initially
-            contemplated the option of obtaining the
-            <a href="https://www.cncf.io/certification/cka/"
-              >Certified Kubernetes Administrator (CKA)</a
-            >, I can say that I learned much through daily on-hands practice,
-            and for the moment, although there is definitely room for acquiring
-            more knowledge on Kubernetes, I’m comfortable where I am.
-          </p>
-        </div>
-      </v-flex>
+      <!--      <v-flex class="text-xs-left">-->
+      <!--        <h1 class="font-weight-light mt-10 mb-5 experience">-->
+      <!--          My future prospects-->
+      <!--        </h1>-->
+      <!--        <div class="description">-->
+      <!--          <p class="font-weight-normal description-text">-->
+      <!--            The DevOps culture is something I took an interest in a few years-->
+      <!--            ago and I want to keep nurturing. It fits my persona of helping-->
+      <!--            others and I also like the fact that it’s a very broad concept-->
+      <!--            covering many areas and allowing you to hop between topics without-->
+      <!--            getting tired of doing the same over and over, and developing not-->
+      <!--            just technical but also interpersonal skills, which in my opinion-->
+      <!--            sometimes weigh more than what you can do with your mouse and-->
+      <!--            keyboard. Although I’m a learner, I’m not a fan of certifications - -->
+      <!--            they can be handy but are not fault-proof. I had passed the ACE-->
+      <!--            certification from GCP years ago, and I can’t say it was really-->
+      <!--            worth it. One can learn about anything he or she is truly interested-->
+      <!--            in without setting the goals of having a title. Although I initially-->
+      <!--            contemplated the option of obtaining the-->
+      <!--            <a href="https://www.cncf.io/certification/cka/"-->
+      <!--              >Certified Kubernetes Administrator (CKA)</a-->
+      <!--            >, I can say that I learned much through daily on-hands practice,-->
+      <!--            and for the moment, although there is definitely room for acquiring-->
+      <!--            more knowledge on Kubernetes, I’m comfortable where I am.-->
+      <!--          </p>-->
+      <!--        </div>-->
+      <!--      </v-flex>-->
       <!--///////////////////////////////////////////////////////////////////////////////////////////-->
       <v-flex class="text-xs-left">
         <h1 class="font-weight-light mt-10 mb-5 experience">
