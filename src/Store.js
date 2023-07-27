@@ -4,7 +4,7 @@ import axios from "axios";
 
 Vue.use(Vuex);
 
-//const username = "maximbetin";
+// const username = "maximbetin";
 
 export default new Vuex.Store({
   state: {
@@ -21,7 +21,7 @@ export default new Vuex.Store({
   },
   actions: {
     async getRepositories({ commit }) {
-      var data = [];
+      const data = [];
       try {
         const get_repos_options = {
           params: { sort: "updated" }
@@ -31,12 +31,12 @@ export default new Vuex.Store({
           get_repos_options
         );
 
-        //Get non-forked first
-        for (var repo of res.data) {
-          var repo_name = repo.name;
+        // Get non-forked first
+        for (const repo of res.data) {
+          const repo_name = repo.name;
 
           const languages_res = await axios.get(repo.url + "/languages");
-          var updated_at = repo.updated_at.split("T")[0];
+          const updated_at = repo.updated_at.split("T")[0];
 
           data.push({
             name: repo_name,
