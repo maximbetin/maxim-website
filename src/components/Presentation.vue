@@ -2,7 +2,10 @@
   <v-layout align-center column class="avatar-wrapper">
     <div align="center" color="transparent">
       <v-avatar color="transparent" size="150">
-        <v-img src="../assets/photo.jpg" class="profile-picture"></v-img>
+        <v-img
+          src="../assets/profile-picture-2.jpeg"
+          class="profile-picture"
+        ></v-img>
       </v-avatar>
 
       <br />
