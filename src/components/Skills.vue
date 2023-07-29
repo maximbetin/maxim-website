@@ -17,63 +17,56 @@
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Scripting"
-          level="90"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Support"
+          skill="Python"
           level="85"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Quality Analysis"
-          level="80"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Patch Management"
+          skill="PowerShell"
           level="75"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Incident Handling"
+          skill="Prometheus"
           level="75"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Monitoring"
+          skill="CI/CD"
           level="75"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="BCM"
-          level="75"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Kubernetes"
+          skill="Grafana"
           level="70"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Cloud"
+          skill="Docker"
+          level="70"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="GCP"
+          level="70"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="Windows Server"
           level="70"
         />
         <skill-bar
@@ -81,27 +74,27 @@
           fontColor="white"
           barColor="#B0BEC5"
           skill="IaC"
-          level="70"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Containerization"
-          level="70"
-        />
-        <skill-bar
-          barSize="small"
-          fontColor="white"
-          barColor="#B0BEC5"
-          skill="Virtualization"
           level="65"
         />
         <skill-bar
           barSize="small"
           fontColor="white"
           barColor="#B0BEC5"
-          skill="Security"
+          skill="Kubernetes"
+          level="65"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="Linux"
+          level="65"
+        />
+        <skill-bar
+          barSize="small"
+          fontColor="white"
+          barColor="#B0BEC5"
+          skill="Azure"
           level="60"
         />
         <skill-bar

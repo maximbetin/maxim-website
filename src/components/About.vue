@@ -10,45 +10,42 @@
       <v-layout align-center column my-10 class="font-weight-normal about-text">
         <v-col>
           <p class="text-justify">
-            I’m a graduated Computer Engineer from the
+            As a Computer Engineering graduate from the
             <a href="https://www.ua.es/en/index.html">University of Alicante</a>
-            and the
+            and the esteemed
             <a
               href="https://eps.ua.es/en/ingenieria-informatica/curriculum/high-academic-performance-groups.html"
               >ARA</a
             >
-            (Alto Rendimiento Académico or High Academic Performance in English)
-            group. I’ve been living in Spain through the majority of my life and
-            also studied
+            (Alto Rendimiento Académico or High Academic Performance) group, I
+            bring a global perspective to my work, having lived most of my life
+            in Spain and completed my
             <a href="https://www.ibo.org/">International Baccalaureate</a> in
-            Sweden (English-coursed), and thus I speak both Spanish and English
-            fluently, albeit with a stronger proficiency in English due to it
-            simply being stuck with me ever since my IB endeavour.
+            Sweden (English-taught program). With fluency in both Spanish and
+            English (with a slight edge in English owing to my IB journey), I am
+            able to navigate multicultural environments with ease.
           </p>
           <p class="text-justify">
-            I consider myself as a very observant and analytical person. Before
-            taking action or making important decisions, I often methodically
-            evaluate and consider the possible outcomes. In my daily life, this
-            helps me in keeping my thoughts in check, have an objective point of
-            view, remain calm and avoid possibly hasty decisions. I'm also
-            naturally curious - I pay close attention to details and allow
-            myself to be inspired by others to learn - either in IT, history,
-            culture, economics, or getting started with a new hobby.
+            Analytical and observant by nature, I prioritize in-depth evaluation
+            and systematic consideration before reaching crucial decisions. This
+            approach equips me to maintain an objective stance, keep my thoughts
+            well-ordered, and avoid impulsive actions. My inherent curiosity
+            extends to details, driving me to continually learn from various
+            domains including IT, history, culture, economics, or even picking
+            up a new hobby.
           </p>
           <p class="text-justify">
-            I've also learned that I'm very sensitive to giving back - I enjoy
-            helping others through any means at my disposal. I perceive a strong
-            sense of accomplishment whenever I'm able to help someone who's
-            struggling and make life easier for them. I generally try to listen,
-            understand and help to the best of my abilities, since often times,
-            we're not that different, and struggles I've been through and how
-            I've overcome them, may be valuable to someone else. Back in my
-            college days while writing my thesis, of all the topics I could
-            choose from and thought of, I was captivated by the topic of school
-            bullying and chose to code a solution that could help in that
-            regard. I'm not fond of unjust or unfair treatment, and will usually
-            take strong action. When it comes to backing up my own, I may even
-            take the bullet myself in some situations.
+            An advocate for contributing to society, I derive immense
+            fulfillment from helping others. It's heartening to see the impact I
+            can make in someone else's life, simply by lending an understanding
+            ear and offering feasible solutions based on my own experiences.
+            This was vividly demonstrated during my university days when, for my
+            <a href="http://rua.ua.es/dspace/handle/10045/80396?locale=en"
+              >thesis</a
+            >, I selected the challenging subject of school bullying and
+            developed a software solution to combat it. My aversion to injustice
+            propels me to act against it assertively, even if it means going to
+            great lengths to protect those who depend on me.
           </p>
           <v-col align="center">
             <v-card outlined max-width="600" color="white">
@@ -106,7 +103,7 @@ export default {
   name: "About",
   data: function() {
     return {
-      series: [15, 15, 10, 10, 10, 10, 10, 10, 5, 5],
+      series: [26, 23, 15, 10, 9, 8, 3, 2, 2, 2],
       chartOptions: {
         chart: {
           type: "pie"
@@ -135,15 +132,15 @@ export default {
           }
         ],
         labels: [
-          "Coding",
-          "Movies",
-          "Travelling",
+          "IT Nerdiness",
+          "Friends",
+          "Swimming",
+          "Hiking",
+          "Reading",
+          "TV Shows",
           "Jogging",
-          "Climbing",
+          "Mountain Climbing",
           "Boxing",
-          "Gaming",
-          "Guitar",
-          "Chess",
           "Mindfulness"
         ],
         theme: {
