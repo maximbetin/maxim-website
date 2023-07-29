@@ -64,6 +64,7 @@ export default {
       menu: [
         { icon: "about", title: "ABOUT", link: "#about" },
         { icon: "skills", title: "SKILLS", link: "#skills" },
+        { icon: "career", title: "CAREER", link: "#career" },
         { icon: "projects", title: "PROJECTS", link: "#projects" },
         { icon: "contact", title: "CONTACT", link: "#contact" }
       ]
