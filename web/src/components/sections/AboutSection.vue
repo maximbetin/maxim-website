@@ -1,11 +1,9 @@
 <script setup>
-import { computed } from "vue";
-
-const paragraphs = computed(() => [
+const paragraphs = [
   `Computer engineering studies at the University of Alicante, time in the ARA honors cohort, and years living in Sweden shaped an easy switch between Spanish- and English-speaking environments. That mix of cultures is still at the core of how work gets done with global teams today.`,
   `Problem solving starts with listening, collecting context, and designing a path that people can actually follow. Curiosity stretches beyond infrastructure—history, economics, and culture often spark the ideas that keep platforms reliable yet flexible.`,
   `Sharing what works matters. A thesis project focused on reducing school bullying turned into a lasting habit of mentoring, writing playbooks, and unblocking teammates so the whole group keeps moving forward together.`,
-]);
+];
 </script>
 
 <template>
