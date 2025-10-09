@@ -1,42 +1,36 @@
-# Personal website
+# Maxim Betin — Modern Website
 
-Personal website made with [Vue.js](https://vuejs.org/) and hosted on [Google App Engine](https://cloud.google.com/appengine).
+This repository contains two generations of the site:
 
-## Local project setup
+- `src/`, `public/`, and the root `package.json` hold the legacy Vue 2 + Vue CLI application kept for reference.
+- `modern-client/` houses the modern Vue 3 + Vite rebuild using Vuetify 3, Pinia, and Axios.
+
+## Modern client development
 
 ```bash
+cd modern-client
 npm install
+npm run dev
 ```
 
-### Compiles and hot-reloads for development
+The app runs at `http://localhost:5173` by default.
+
+### Build for production
 
 ```bash
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```bash
+cd modern-client
 npm run build
 ```
 
-### Run your tests
+Artifacts are emitted to `modern-client/dist/`.
 
-```bash
-npm run test
-```
+### Linting & tests
 
-### Lints and fixes files
+Linting/test tooling is being introduced alongside the modernization. See `MODERNIZATION_PLAN.md` for current status and backlog.
 
-```bash
-npm run lint
-```
+## Deployment (Google App Engine)
 
-## Deploying to [Google App Engine](https://cloud.google.com/appengine/)
-
-The `npm run build` command will compile the files onto the `dist` folder.
-
-To upload the project to a GAE service run:
+Update `app.yaml` to target Node 20 and point handlers to the Vite build directory (see Phase 4 tasks in `MODERNIZATION_PLAN.md`). Once configured:
 
 ```bash
 gcloud app deploy app.yaml
