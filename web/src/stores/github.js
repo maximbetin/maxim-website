@@ -21,7 +21,7 @@ const createFormatter = () =>
 const formatDate = (formatter, isoString) => {
   try {
     return formatter.format(new Date(isoString));
-  } catch (_error) {
+  } catch {
     return isoString;
   }
 };
@@ -47,6 +47,14 @@ const orderRepositories = (repositories) => [
   ...repositories.filter((repo) => !repo.fork),
   ...repositories.filter((repo) => repo.fork),
 ];
+
+const logWarn = (...args) => {
+  globalThis.console?.warn?.(...args);
+};
+
+const logError = (...args) => {
+  globalThis.console?.error?.(...args);
+};
 
 export const useGithubStore = defineStore("github", () => {
   const repositories = ref([]);
@@ -78,7 +86,7 @@ export const useGithubStore = defineStore("github", () => {
             const response = await GITHUB_CLIENT.get(repo.languages_url);
             return sanitiseLanguages(response.data);
           } catch (languageError) {
-            console.warn(
+            logWarn(
               `[github-store] unable to load languages for ${repo.full_name}:`,
               languageError
             );
@@ -91,7 +99,7 @@ export const useGithubStore = defineStore("github", () => {
         normaliseRepository(formatter, repo, languages[index])
       );
     } catch (requestError) {
-      console.error("[github-store] repository fetch failed", requestError);
+      logError("[github-store] repository fetch failed", requestError);
       error.value = "Unable to load projects from GitHub right now.";
     } finally {
       loading.value = false;

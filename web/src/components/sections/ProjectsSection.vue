@@ -19,7 +19,8 @@ onMounted(() => {
         <v-col cols="12" class="text-center mb-8">
           <h2 class="text-h4 text-md-h3 font-weight-bold mb-2">Projects</h2>
           <p class="text-body-1 text-medium-emphasis">
-            A rotating mix of tools, experiments, and production helpers that keep my hands close to the platforms I run.
+            A rotating mix of tools, experiments, and production helpers that keep my hands close to the platforms I
+            run.
           </p>
           <v-divider class="mx-auto mt-6" style="max-width: 240px" />
         </v-col>
@@ -70,8 +71,8 @@ onMounted(() => {
 
             <v-divider class="mx-4" />
 
-            <v-card-actions class="justify-space-between">
-              <div class="d-flex align-center">
+            <v-card-actions class="project-actions">
+              <div class="d-flex align-center project-meta">
                 <v-icon icon="mdi-star-outline" class="me-1" />
                 <span>{{ repo.stars }}</span>
                 <v-chip v-if="repo.isFork" class="ms-4" size="small" variant="tonal">
@@ -79,13 +80,13 @@ onMounted(() => {
                   Forked
                 </v-chip>
               </div>
-              <v-btn class="project-button" color="primary" variant="flat" :href="repo.htmlUrl" target="_blank"
-                rel="noopener">
-                <template #prepend>
+              <a class="project-link" :href="repo.htmlUrl" target="_blank" rel="noopener">
+                <span class="project-link__icon">
                   <v-icon icon="mdi-open-in-new" />
-                </template>
-                View repository
-              </v-btn>
+                </span>
+                <span>View repository</span>
+                <span class="visually-hidden">(opens in a new tab)</span>
+              </a>
             </v-card-actions>
           </v-card>
         </v-col>
@@ -96,18 +97,29 @@ onMounted(() => {
 
 <style scoped>
 .projects-section {
-  background: linear-gradient(180deg, rgba(44, 62, 145, 0.05) 0%, rgba(17, 163, 158, 0.05) 100%);
+  background: linear-gradient(180deg, rgba(29, 53, 87, 0.05) 0%, rgba(27, 153, 137, 0.06) 100%);
 }
 
 .project-card {
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-soft);
   background-color: var(--color-surface);
-  border: 1px solid rgba(44, 62, 145, 0.08);
+  border: 1px solid rgba(29, 53, 87, 0.12);
 }
 
 .language-stack {
   display: flex;
   flex-wrap: wrap;
+}
+
+.project-actions {
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.project-meta {
+  color: rgba(19, 27, 35, 0.6);
+  font-size: 0.9rem;
 }
 </style>
