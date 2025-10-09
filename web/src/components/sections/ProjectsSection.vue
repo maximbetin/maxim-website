@@ -20,7 +20,7 @@ const error = computed(() => githubStore.error);
         <v-col cols="12" class="text-center mb-8">
           <h2 class="text-h4 text-md-h3 font-weight-bold mb-2">Projects</h2>
           <p class="text-body-1 text-medium-emphasis">
-            Selected open-source work from my GitHub portfolio.
+            A rotating mix of tools, experiments, and production helpers that keep my hands close to the platforms I run.
           </p>
           <v-divider class="mx-auto mt-6" style="max-width: 240px" />
         </v-col>
@@ -45,14 +45,14 @@ const error = computed(() => githubStore.error);
 
       <v-row class="g-6" v-else>
         <v-col v-for="repo in repositories" :key="repo.id" cols="12" md="6" lg="4">
-          <v-card elevation="3" class="h-100 d-flex flex-column">
+          <v-card class="project-card h-100 d-flex flex-column">
             <v-card-item>
               <div class="d-flex align-center mb-2">
                 <v-icon icon="mdi-github" class="me-2" />
                 <span class="text-h6 font-weight-semibold">{{ repo.name }}</span>
               </div>
               <p class="text-body-2 text-medium-emphasis">
-                {{ repo.description || "No description provided." }}
+                {{ repo.description || "Documentation in progress – explore the repo for implementation notes." }}
               </p>
             </v-card-item>
 
@@ -61,9 +61,9 @@ const error = computed(() => githubStore.error);
             </v-card-subtitle>
 
             <v-card-text class="flex-grow-1">
-              <div class="d-flex flex-wrap gap-2">
-                <v-chip v-for="language in repo.languages" :key="language" color="primary" variant="elevated"
-                  class="ma-1" size="small">
+              <div class="language-stack">
+                <v-chip v-for="language in repo.languages" :key="language" color="secondary" class="ma-1" size="small"
+                  variant="tonal">
                   {{ language }}
                 </v-chip>
               </div>
@@ -80,8 +80,8 @@ const error = computed(() => githubStore.error);
                   Forked
                 </v-chip>
               </div>
-              <v-btn color="secondary" variant="flat" :href="repo.htmlUrl" target="_blank" rel="noopener">
-                View on GitHub
+              <v-btn color="primary" variant="flat" :href="repo.htmlUrl" target="_blank" rel="noopener">
+                View repository
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -93,6 +93,18 @@ const error = computed(() => githubStore.error);
 
 <style scoped>
 .projects-section {
-  background-color: #f5f7fa;
+  background: linear-gradient(180deg, rgba(44, 62, 145, 0.05) 0%, rgba(17, 163, 158, 0.05) 100%);
+}
+
+.project-card {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  background-color: var(--color-surface);
+  border: 1px solid rgba(44, 62, 145, 0.08);
+}
+
+.language-stack {
+  display: flex;
+  flex-wrap: wrap;
 }
 </style>
