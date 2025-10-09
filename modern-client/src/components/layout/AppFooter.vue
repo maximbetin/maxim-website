@@ -6,16 +6,8 @@
           <p class="mb-2">&copy; {{ currentYear }} Maxim Betin. All rights reserved.</p>
         </v-col>
         <v-col cols="12">
-          <v-btn
-            v-for="link in socialLinks"
-            :key="link.href"
-            :href="link.href"
-            target="_blank"
-            rel="noopener"
-            variant="text"
-            size="large"
-            class="mx-2"
-          >
+          <v-btn v-for="link in socialLinks" :key="link.href" :href="link.href" target="_blank" rel="noopener"
+            variant="text" size="large" class="mx-2">
             <v-icon :icon="link.icon" />
           </v-btn>
         </v-col>

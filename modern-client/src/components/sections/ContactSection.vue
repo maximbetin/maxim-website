@@ -27,22 +27,9 @@ const contactLinks = [
       </v-row>
 
       <v-row justify="center" class="mb-10 g-6">
-        <v-col
-          v-for="link in contactLinks"
-          :key="link.href"
-          cols="6"
-          md="3"
-          class="d-flex justify-center"
-        >
-          <v-btn
-            class="contact-button"
-            size="large"
-            color="primary"
-            variant="flat"
-            :href="link.href"
-            target="_blank"
-            rel="noopener"
-          >
+        <v-col v-for="link in contactLinks" :key="link.href" cols="6" md="3" class="d-flex justify-center">
+          <v-btn class="contact-button" size="large" color="primary" variant="flat" :href="link.href" target="_blank"
+            rel="noopener">
             <v-icon :icon="link.icon" start />
             {{ link.label }}
           </v-btn>

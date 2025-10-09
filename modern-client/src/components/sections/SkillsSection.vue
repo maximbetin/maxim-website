@@ -41,12 +41,7 @@ const skillGroups = [
       </v-row>
 
       <v-row class="g-8">
-        <v-col
-          v-for="group in skillGroups"
-          :key="group.title"
-          cols="12"
-          md="4"
-        >
+        <v-col v-for="group in skillGroups" :key="group.title" cols="12" md="4">
           <v-card elevation="2" class="pa-6 h-100">
             <h3 class="text-h6 font-weight-medium mb-6 text-uppercase">
               {{ group.title }}
@@ -57,13 +52,7 @@ const skillGroups = [
                   <span class="font-weight-semibold">{{ skill.name }}</span>
                   <span>{{ skill.level }}%</span>
                 </div>
-                <v-progress-linear
-                  :model-value="skill.level"
-                  color="primary"
-                  height="10"
-                  rounded
-                  striped
-                />
+                <v-progress-linear :model-value="skill.level" color="primary" height="10" rounded striped />
               </div>
             </div>
           </v-card>

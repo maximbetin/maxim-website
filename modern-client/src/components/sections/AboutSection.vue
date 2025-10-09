@@ -89,7 +89,7 @@ const paragraphs = computed(() => [
   background-color: var(--v-theme-surface);
 }
 
-.prose p + p {
+.prose p+p {
   margin-top: 1rem;
 }
 </style>

@@ -1,11 +1,11 @@
-import { ref } from "vue";
-import { defineStore } from "pinia";
 import axios from "axios";
+import { defineStore } from "pinia";
+import { ref } from "vue";
 
 const LANGUAGES_TO_DISPLAY = 3;
 const MAX_PROJECTS = 12;
 
-const formatDate = isoString => {
+const formatDate = (isoString) => {
   try {
     const formatter = new Intl.DateTimeFormat("en-GB", {
       year: "numeric",
@@ -32,28 +32,26 @@ export const useGithubStore = defineStore("github", () => {
     error.value = null;
 
     try {
-      const { data } = await axios.get(
-        "https://api.github.com/users/maximbetin/repos",
-        {
-          params: {
-            sort: "updated",
-            per_page: 100,
-          },
-          headers: {
-            Accept: "application/vnd.github+json",
-          },
-        }
-      );
+      const { data } = await axios.get("https://api.github.com/users/maximbetin/repos", {
+        params: {
+          sort: "updated",
+          per_page: 100,
+        },
+        headers: {
+          Accept: "application/vnd.github+json",
+        },
+      });
 
-      const ordered = [
-        ...data.filter(repo => !repo.fork),
-        ...data.filter(repo => repo.fork),
-      ];
+      const ordered = [...data.filter((repo) => !repo.fork), ...data.filter((repo) => repo.fork)];
 
       const selected = ordered.slice(0, MAX_PROJECTS);
 
       const languageResponses = await Promise.allSettled(
-        selected.map(repo => axios.get(repo.languages_url, { headers: { Accept: "application/vnd.github+json" } }))
+        selected.map((repo) =>
+          axios.get(repo.languages_url, {
+            headers: { Accept: "application/vnd.github+json" },
+          })
+        )
       );
 
       repositories.value = selected.map((repo, index) => {

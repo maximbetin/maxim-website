@@ -49,15 +49,8 @@ const openLink = href => {
               healthy teams, and ship outcomes that matter.
             </p>
             <div class="d-flex flex-wrap justify-center justify-md-start">
-              <v-btn
-                v-for="action in actions"
-                :key="action.href"
-                class="ma-2"
-                color="primary"
-                variant="flat"
-                size="large"
-                @click="openLink(action.href)"
-              >
+              <v-btn v-for="action in actions" :key="action.href" class="ma-2" color="primary" variant="flat"
+                size="large" @click="openLink(action.href)">
                 <v-icon :icon="action.icon" start />
                 {{ action.label }}
               </v-btn>
