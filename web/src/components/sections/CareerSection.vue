@@ -1,27 +1,27 @@
 <script setup>
 const futureProspects = [
-  `A few years ago I discovered DevOps—a discipline that blends my passion for helping others with the thrill of continuous learning. The field’s breadth keeps work engaging while balancing deep technical problem-solving with empathetic collaboration.`,
-  `Kubernetes quickly became a focus area; I invest heavily in honing practical skills through real workloads and guided experiments. I value hands-on mastery over certificates, though I’m certified as a Google Cloud Associate Cloud Engineer (ACE) and continue pursuing pragmatic expertise.`,
-  `I’m energized by environments that value psychological safety, craftsmanship, and measurable impact. My goal is to partner with teams that deliver resilient platforms, improve operational excellence, and grow together through transparency and trust.`,
+  `I chose DevOps because it mixes my two favourite things: building reliable systems and helping people work better together. The variety keeps me learning without losing sight of day-to-day needs.`,
+  `Kubernetes is my main toolkit. I focus on running real workloads, keeping my Google Cloud Associate Cloud Engineer certification current, and sharing what works with the teams I support.`,
+  `I look for teams that value openness, steady delivery, and shared responsibility. My aim is to create platforms that are simple to run and easy to trust.`,
 ];
 
 const highlights = [
   {
     title: "Automation & Reliability",
     description:
-      "I build observability-rich platforms, automate repetitive workflows, and champion operational readiness through documentation and runbooks.",
+      "I automate repeatable tasks, add clear monitoring, and keep runbooks current so incidents stay manageable.",
     icon: "mdi-robot",
   },
   {
     title: "Platform Ownership",
     description:
-      "From Kubernetes administration to CI/CD governance, I enjoy designing infrastructure foundations that empower product teams without slowing delivery.",
+      "I help teams ship faster by keeping Kubernetes, CI/CD, and infrastructure predictable and well-documented.",
     icon: "mdi-cloud-check",
   },
   {
     title: "Team Enablement",
     description:
-      "Mentorship, process facilitation, and incident leadership are core strengths. I strive to make complex systems approachable for everyone involved.",
+      "I coach teammates, guide incidents calmly, and turn complex systems into practical steps anyone can follow.",
     icon: "mdi-account-group",
   },
 ];
