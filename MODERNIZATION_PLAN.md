@@ -23,22 +23,20 @@
 
 - **[Framework Upgrade]** Migrate to Vue 3 with Vite (or Vue CLI 5+) and Vuetify 3 or a lighter UI system, adopting Composition API or Pinia for state.
 - **[Tooling Refresh]** Move to Node 20+, regenerate `package-lock.json`, configure ESLint 9 + Prettier + Husky, introduce Vitest/Jest for tests, and maintain CI (GitHub Actions) with lint/test/audit stages.
-- **[Security Hardening]** Implement security headers, SRI-pinned assets, dependency scanning, and remove direct `latest` CDN pulls.
 - **[Performance & UX]** Batch GitHub data fetches (serverless proxy or build-time caching), streamline components, improve accessibility, and ensure responsive layouts with modern Vuetify grid.
 - **[Content Hygiene]** Trim legacy comments, externalize copy where appropriate, and refresh marketing/SEO assets.
 
-## Remediation Roadmap
+## Remediation roadmap
 
-### Phase 1 · Baseline & Hygiene
+### Phase 1 · Baseline & Hygiene *(completed Oct 9, 2025)*
 
-- **[Node & Metadata]** Install Node 20+, add `engines` field, remove `npm`/unused packages from `package.json`.
-- **[Dependency Snapshot]** Run `npm install` to generate a lockfile and capture a legacy tag (`legacy-vue2`).
+- **[Node & Metadata — completed Oct 9, 2025]** Node 20.19.5 installed via `nvm`, `package.json` updated with `engines.node` and stray dependencies removed.
+- **[Dependency Snapshot — completed Oct 9, 2025]** Regenerated `package-lock.json` under Node 20, created `legacy-vue2-baseline` tag after commit `chore: lock legacy dependencies on node20`.
 
 ### Phase 2 · Tooling & Dependency Upgrades
 
 - **[Project Scaffold]** Create a new Vue 3 + Vite project, port assets from `public/`, and reconfigure router/store.
 - **[Dependencies]** Reintroduce only required libraries at current versions (`axios` ≥1.6 or alternative). Replace deprecated utilities (`core-js@3`, maintained chart/skill components).
-- **[Scripts & Testing]** Replace `vue-cli-service` scripts with Vite equivalents, configure ESLint + Prettier, add Vitest/Jest test suite.
 
 ### Phase 3 · Application Refactor
 
