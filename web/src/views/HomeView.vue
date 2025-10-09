@@ -1,7 +1,6 @@
 <script setup>
 import AboutSection from "@/components/sections/AboutSection.vue";
 import CareerSection from "@/components/sections/CareerSection.vue";
-import ContactSection from "@/components/sections/ContactSection.vue";
 import HeroSection from "@/components/sections/HeroSection.vue";
 import ProjectsSection from "@/components/sections/ProjectsSection.vue";
 import SkillsSection from "@/components/sections/SkillsSection.vue";
@@ -14,6 +13,5 @@ import SkillsSection from "@/components/sections/SkillsSection.vue";
     <SkillsSection />
     <CareerSection />
     <ProjectsSection />
-    <ContactSection />
   </div>
 </template>
