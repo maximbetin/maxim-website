@@ -1,27 +1,27 @@
 <script setup>
 const futureProspects = [
-  `I chose DevOps because it mixes my two favourite things: building reliable systems and helping people work better together. The variety keeps me learning without losing sight of day-to-day needs.`,
-  `Kubernetes is my main toolkit. I focus on running real workloads, keeping my Google Cloud Associate Cloud Engineer certification current, and sharing what works with the teams I support.`,
-  `I look for teams that value openness, steady delivery, and shared responsibility. My aim is to create platforms that are simple to run and easy to trust.`,
+  `DevOps pulled me in because it mixes the mechanics of resilient systems with the people side of shipping software. There is always a new puzzle, yet the work stays grounded in helping teammates move faster with less stress.`,
+  `Most days you’ll find me fine-tuning Kubernetes workloads, improving pipelines, or exploring cloud platform updates. The Google Cloud Associate Cloud Engineer certification stays current because I prefer practical knowledge to stay sharp.`,
+  `The teams I gravitate toward value openness over heroics. Shared responsibility, steady delivery, and a healthy incident culture are the ingredients for platforms that are both dependable and calm to operate.`,
 ];
 
 const highlights = [
   {
     title: "Automation & Reliability",
     description:
-      "I automate repeatable tasks, add clear monitoring, and keep runbooks current so incidents stay manageable.",
+      "Automating the boring, tightening feedback loops, and keeping runbooks fresh so incidents never feel chaotic.",
     icon: "mdi-robot",
   },
   {
     title: "Platform Ownership",
     description:
-      "I help teams ship faster by keeping Kubernetes, CI/CD, and infrastructure predictable and well-documented.",
+      "Pairing Kubernetes, CI/CD, and documentation to create infrastructure that product squads trust instinctively.",
     icon: "mdi-cloud-check",
   },
   {
     title: "Team Enablement",
     description:
-      "I coach teammates, guide incidents calmly, and turn complex systems into practical steps anyone can follow.",
+      "Mentoring engineers, guiding incidents with a steady tone, and breaking complex systems into approachable steps.",
     icon: "mdi-account-group",
   },
 ];

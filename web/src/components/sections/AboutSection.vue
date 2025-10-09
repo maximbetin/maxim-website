@@ -2,9 +2,9 @@
 import { computed } from "vue";
 
 const paragraphs = computed(() => [
-  `I studied Computer Engineering at the University of Alicante as part of the ARA program and spent several years in Sweden completing the International Baccalaureate. Speaking both Spanish and English lets me work comfortably with teams in different places.`,
-  `I take time to understand a problem before making decisions and look for clear, practical answers. Outside of work I stay curious about technology, history, culture, and economics because fresh context helps me build better solutions.`,
-  `Helping others is a big motivator for me. During university I built my thesis project to tackle school bullying, and I still enjoy sharing what I learn so other people can move faster.`,
+  `Computer engineering studies at the University of Alicante, time in the ARA honors cohort, and years living in Sweden shaped an easy switch between Spanish- and English-speaking environments. That mix of cultures is still at the core of how work gets done with global teams today.`,
+  `Problem solving starts with listening, collecting context, and designing a path that people can actually follow. Curiosity stretches beyond infrastructure—history, economics, and culture often spark the ideas that keep platforms reliable yet flexible.`,
+  `Sharing what works matters. A thesis project focused on reducing school bullying turned into a lasting habit of mentoring, writing playbooks, and unblocking teammates so the whole group keeps moving forward together.`,
 ]);
 </script>
 
@@ -36,6 +36,12 @@ const paragraphs = computed(() => [
 <style scoped>
 .about-section {
   background-color: var(--v-theme-surface);
+}
+
+.prose {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: rgba(28, 35, 51, 0.84);
 }
 
 .prose p+p {

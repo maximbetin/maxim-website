@@ -48,7 +48,7 @@ const handleNavigate = target => {
 
 <template>
   <header>
-    <v-app-bar elevation="2" class="app-navigation" color="surface">
+    <v-app-bar elevation="0" class="app-navigation" color="surface">
       <v-app-bar-nav-icon class="d-lg-none" @click="toggleDrawer" />
       <v-toolbar-title class="font-weight-bold">Maxim Betin</v-toolbar-title>
       <v-spacer />
@@ -74,11 +74,18 @@ const handleNavigate = target => {
 
 <style scoped>
 .app-navigation {
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(44, 62, 145, 0.08);
+  box-shadow: 0 12px 32px rgba(31, 43, 104, 0.08);
 }
 
 .text-button {
   font-weight: 600;
   letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+.text-button:hover {
+  color: var(--color-primary);
 }
 </style>
