@@ -54,31 +54,16 @@ const handleNavigate = target => {
       <v-toolbar-title class="font-weight-bold">Maxim Betin</v-toolbar-title>
       <v-spacer />
       <nav class="d-none d-lg-flex">
-        <v-btn
-          v-for="item in menuItems"
-          :key="item.target"
-          variant="text"
-          class="text-button text-uppercase"
-          @click="handleNavigate(item.target)"
-        >
+        <v-btn v-for="item in menuItems" :key="item.target" variant="text" class="text-button text-uppercase"
+          @click="handleNavigate(item.target)">
           {{ item.label }}
         </v-btn>
       </nav>
     </v-app-bar>
 
-    <v-navigation-drawer
-      v-model="drawer"
-      class="d-lg-none"
-      location="left"
-      temporary
-      width="280"
-    >
+    <v-navigation-drawer v-model="drawer" class="d-lg-none" location="left" temporary width="280">
       <v-list>
-        <v-list-item
-          v-for="item in menuItems"
-          :key="item.target"
-          @click="handleNavigate(item.target)"
-        >
+        <v-list-item v-for="item in menuItems" :key="item.target" @click="handleNavigate(item.target)">
           <v-list-item-title class="text-uppercase">
             {{ item.label }}
           </v-list-item-title>

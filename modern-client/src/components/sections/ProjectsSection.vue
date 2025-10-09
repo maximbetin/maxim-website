@@ -1,6 +1,6 @@
 <script setup>
-import { computed, onMounted } from "vue";
 import { useGithubStore } from "@/stores/github";
+import { computed, onMounted } from "vue";
 
 const githubStore = useGithubStore();
 
@@ -44,13 +44,7 @@ const error = computed(() => githubStore.error);
       </v-row>
 
       <v-row class="g-6" v-else>
-        <v-col
-          v-for="repo in repositories"
-          :key="repo.id"
-          cols="12"
-          md="6"
-          lg="4"
-        >
+        <v-col v-for="repo in repositories" :key="repo.id" cols="12" md="6" lg="4">
           <v-card elevation="3" class="h-100 d-flex flex-column">
             <v-card-item>
               <div class="d-flex align-center mb-2">
@@ -68,14 +62,8 @@ const error = computed(() => githubStore.error);
 
             <v-card-text class="flex-grow-1">
               <div class="d-flex flex-wrap gap-2">
-                <v-chip
-                  v-for="language in repo.languages"
-                  :key="language"
-                  color="primary"
-                  variant="elevated"
-                  class="ma-1"
-                  size="small"
-                >
+                <v-chip v-for="language in repo.languages" :key="language" color="primary" variant="elevated"
+                  class="ma-1" size="small">
                   {{ language }}
                 </v-chip>
               </div>
@@ -92,13 +80,7 @@ const error = computed(() => githubStore.error);
                   Forked
                 </v-chip>
               </div>
-              <v-btn
-                color="secondary"
-                variant="flat"
-                :href="repo.htmlUrl"
-                target="_blank"
-                rel="noopener"
-              >
+              <v-btn color="secondary" variant="flat" :href="repo.htmlUrl" target="_blank" rel="noopener">
                 View on GitHub
               </v-btn>
             </v-card-actions>
