@@ -33,31 +33,32 @@
 - **[Node & Metadata — completed Oct 9, 2025]** Node 20.19.5 installed via `nvm`, `package.json` updated with `engines.node` and stray dependencies removed.
 - **[Dependency Snapshot — completed Oct 9, 2025]** Regenerated `package-lock.json` under Node 20, created `legacy-vue2-baseline` tag after commit `chore: lock legacy dependencies on node20`.
 
-### Phase 2 · Tooling & Dependency Upgrades
+### Phase 2 · Tooling & Dependency Upgrades *(in progress)*
 
-- **[Project Scaffold]** Create a new Vue 3 + Vite project, port assets from `public/`, and reconfigure router/store.
-- **[Dependencies]** Reintroduce only required libraries at current versions (`axios` ≥1.6 or alternative). Replace deprecated utilities (`core-js@3`, maintained chart/skill components).
+- **[Project Scaffold — completed Oct 9, 2025]** Bootstrapped the Vue 3 + Vite app in `modern-client/`, migrated sections into `src/components/sections/`, and wired Vuetify, Pinia, and the router in `src/main.js`.
+- **[Dependencies — completed Oct 9, 2025]** Refreshed `modern-client/package.json` with Vue 3.5, Vuetify 3.7, Pinia 3, Axios 1.7, Sass, and `vite-plugin-vuetify`; generated `package-lock.json` under Node 20.
+- **[Testing & Linting — pending]** Configure ESLint 9 + Prettier, Vitest, and Husky pre-commit hooks to align with the tooling objective.
 
-### Phase 3 · Application Refactor
+### Phase 3 · Application Refactor *(in progress)*
 
-- **[Routing]** Migrate to Vue Router 4, enable lazy routes, and ensure server rewrites.
-- **[State Management]** Replace Vuex with Pinia/composables; redesign GitHub fetch to limit requests and handle errors.
-- **[Components]** Break monolithic components into focused modules, remove dead code, fix chart formatter bug, relocate plugin registration to dedicated files.
-- **[Styles]** Adopt design tokens/SASS modules, remove direct stylesheet link from `public/index.html`, and rely on bundler imports.
+- **[Routing — completed Oct 9, 2025]** Implemented Vue Router 4 with lazy-loaded `HomeView.vue` and history mode via `src/router/index.js`, coupled with SPA rewrites in `app.yaml`.
+- **[State Management — in progress]** Replaced Vuex with Pinia store `src/stores/github.js`, constrained API calls to 12 repos, and added Promise-based language batching; still need server-side caching and advanced rate-limit handling.
+- **[Components — completed Oct 9, 2025]** Split sections into dedicated Vue SFCs under `src/components/sections/`, removed legacy comments, and isolated Vuetify setup in `src/plugins/vuetify.js`.
+- **[Styles — in progress]** Removed external CSS link from `index.html` and rely on bundled `style.css`/Vuetify theme tokens; outstanding work includes introducing formal design tokens and SASS module organization.
 
-### Phase 4 · Security & Deployment
+### Phase 4 · Security & Deployment *(in progress)*
 
-- **[Config]** Update `app.yaml` to `runtime: nodejs20`, correct history-mode handlers, and remove `www/` references.
-- **[Headers & Assets]** Add CSP, HSTS, Referrer-Policy, and SRI hashes; include `robots.txt`, `sitemap.xml`, and updated favicons.
-- **[Automation]** Configure CI pipeline (lint/test/build/audit), enable Dependabot or Renovate, and document deployment (`gcloud app deploy`).
+- **[Config — completed Oct 9, 2025]** Updated `app.yaml` to Node.js 20, serving `modern-client/dist/` with history-mode rewrites and secure defaults.
+- **[Headers & Assets — in progress]** CSP, HSTS, frame, and referrer policies defined in `app.yaml`; still need SRI hashes plus `robots.txt`, `sitemap.xml`, and refreshed favicons.
+- **[Automation — pending]** Stand up CI (GitHub Actions), dependency scanning, and deployment documentation enhancements.
 
-### Phase 5 · Verification & Launch
+### Phase 5 · Verification & Launch *(pending)*
 
 - **[Quality Gates]** Execute unit/integration tests, run Lighthouse/axe audits, validate GitHub API behavior under constrained networks.
 - **[Documentation & Monitoring]** Update `README.md` with new workflows, document privacy/analytics, deploy, and monitor App Engine logs for regressions.
 
 ## Immediate Action Items
 
-- **[Decide Stack Direction]** Confirm target UI library and deployment strategy before migration work begins.
-- **[Establish Tracking]** Create issues or project board entries for each phase, prioritizing high-risk dependency and hosting updates.
-- **[Communicate Changes]** Share modernization plan with stakeholders, aligning timelines for content refresh and design updates.
+- **[Decide Stack Direction — completed Oct 9, 2025]** Vue 3 + Vite + Vuetify 3 stack approved and implemented under `modern-client/`.
+- **[Establish Tracking — pending]** Create issues/project board entries per phase, starting with testing tooling and automation follow-ups.
+- **[Communicate Changes — pending]** Broadcast the modernization progress and remaining workstreams to stakeholders and align on deployment timelines.
