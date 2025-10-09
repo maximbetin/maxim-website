@@ -1,4 +1,4 @@
-# Legacy Website Modernization Plan
+# Legacy Website Modernization Plans
 
 ## Repository Snapshot
 
