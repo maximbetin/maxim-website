@@ -13,8 +13,6 @@
     "axios": "^0.21.1",
     "chart.js": "^2.9.3",
     "core-js": "^2.6.11",
-    "npm": "^7.4.3",
-    "svg": "^0.1.0",
     "vue": "^2.7.2",
     "vue-apexcharts": "^1.6.0",
     "vue-chartjs": "^3.5.1",
@@ -67,5 +65,8 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
