@@ -1,51 +1,5 @@
 <script setup>
 import { computed } from "vue";
-import VueApexCharts from "vue3-apexcharts";
-
-const chartOptions = {
-  chart: {
-    type: "pie",
-    toolbar: { show: false },
-  },
-  theme: {
-    monochrome: {
-      enabled: true,
-      color: "#607D8B",
-      shadeIntensity: 0.3,
-    },
-  },
-  legend: {
-    position: "bottom",
-  },
-  labels: [
-    "IT Nerdiness",
-    "Friends",
-    "Swimming",
-    "Hiking",
-    "Reading",
-    "TV Shows",
-    "Jogging",
-    "Mountain Climbing",
-    "Boxing",
-    "Mindfulness",
-  ],
-  dataLabels: {
-    formatter(value, { w, seriesIndex }) {
-      const label = w.globals.labels[seriesIndex];
-      return `${label}: ${value.toFixed(1)}%`;
-    },
-  },
-  responsive: [
-    {
-      breakpoint: 600,
-      options: {
-        legend: { show: false },
-      },
-    },
-  ],
-};
-
-const series = [26, 23, 15, 10, 9, 8, 3, 2, 2, 2];
 
 const paragraphs = computed(() => [
   `I studied Computer Engineering at the University of Alicante as part of the ARA program and spent several years in Sweden completing the International Baccalaureate. Speaking both Spanish and English lets me work comfortably with teams in different places.`,
@@ -66,18 +20,13 @@ const paragraphs = computed(() => [
         </v-col>
       </v-row>
 
-      <v-row class="g-8">
-        <v-col cols="12" md="7">
-          <div class="prose">
+      <v-row justify="center">
+        <v-col cols="12" md="9" lg="8">
+          <div class="prose mx-auto">
             <p v-for="paragraph in paragraphs" :key="paragraph">
               {{ paragraph }}
             </p>
           </div>
-        </v-col>
-        <v-col cols="12" md="5">
-          <v-card class="pa-4" elevation="2">
-            <VueApexCharts type="pie" height="320" :options="chartOptions" :series="series" />
-          </v-card>
         </v-col>
       </v-row>
     </v-container>
