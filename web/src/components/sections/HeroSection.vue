@@ -1,31 +1,7 @@
 <script setup>
-const actions = [
-  {
-    label: "LinkedIn",
-    icon: "mdi-linkedin",
-    href: "https://www.linkedin.com/in/maxim-betin",
-  },
-  {
-    label: "Stack Overflow",
-    icon: "mdi-stack-overflow",
-    href: "https://stackoverflow.com/users/9146820/maxim",
-  },
-  {
-    label: "GitHub",
-    icon: "mdi-github",
-    href: "https://github.com/maximbetin",
-  },
-  {
-    label: "Resume",
-    icon: "mdi-file-account",
-    href:
-      "https://storage.googleapis.com/phonic-network-281616.appspot.com/Maxim%20Betin%20-%20Resume%20(English).pdf",
-  },
-];
+import { HERO_ACTIONS } from "@/data/profile";
 
-const openLink = href => {
-  window.open(href, "_blank", "noopener");
-};
+const actions = HERO_ACTIONS;
 </script>
 
 <template>
@@ -49,8 +25,8 @@ const openLink = href => {
               healthy teams, and ship outcomes that matter.
             </p>
             <div class="d-flex flex-wrap justify-center justify-md-start">
-              <v-btn v-for="action in actions" :key="action.href" class="ma-2" color="primary" variant="flat"
-                size="large" @click="openLink(action.href)">
+              <v-btn v-for="action in actions" :key="action.key" class="ma-2" color="primary" variant="flat"
+                size="large" :href="action.href" target="_blank" rel="noopener">
                 <v-icon :icon="action.icon" start />
                 {{ action.label }}
               </v-btn>

@@ -17,12 +17,10 @@
 </template>
 
 <script setup>
-const currentYear = new Date().getFullYear();
+import { FOOTER_LINKS } from "@/data/profile";
 
-const socialLinks = [
-  { icon: "mdi-linkedin", href: "https://www.linkedin.com/in/maxim-betin" },
-  { icon: "mdi-github", href: "https://github.com/maximbetin" },
-];
+const currentYear = new Date().getFullYear();
+const socialLinks = FOOTER_LINKS;
 </script>
 
 <style scoped>

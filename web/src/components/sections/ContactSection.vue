@@ -1,16 +1,8 @@
 <script setup>
-const contactLinks = [
-  {
-    icon: "mdi-linkedin",
-    href: "https://www.linkedin.com/in/maxim-betin",
-    label: "LinkedIn",
-  },
-  {
-    icon: "mdi-instagram",
-    href: "https://www.instagram.com/maxim_93b/",
-    label: "Instagram",
-  },
-];
+import { CONTACT_LINKS } from "@/data/profile";
+
+const contactLinks = CONTACT_LINKS;
+const primaryContactLabel = contactLinks[0]?.label ?? "LinkedIn";
 </script>
 
 <template>
@@ -27,7 +19,7 @@ const contactLinks = [
       </v-row>
 
       <v-row justify="center" class="mb-10 g-6">
-        <v-col v-for="link in contactLinks" :key="link.href" cols="6" md="3" class="d-flex justify-center">
+        <v-col v-for="link in contactLinks" :key="link.key" cols="6" md="3" class="d-flex justify-center">
           <v-btn class="contact-button" size="large" color="primary" variant="flat" :href="link.href" target="_blank"
             rel="noopener">
             <v-icon :icon="link.icon" start />
@@ -39,7 +31,7 @@ const contactLinks = [
       <v-row justify="center">
         <v-col cols="12" md="6" class="text-center">
           <p class="text-body-1">
-            The fastest way to reach me is through {{ contactLinks[0].label }}.
+            The fastest way to reach me is through {{ primaryContactLabel }}.
           </p>
         </v-col>
       </v-row>
