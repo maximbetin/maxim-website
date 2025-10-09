@@ -8,7 +8,7 @@
         </v-col>
         <v-col cols="12" md="6" class="d-flex justify-center justify-md-end mt-4 mt-md-0">
           <v-btn v-for="link in socialLinks" :key="link.href" :href="link.href" target="_blank" rel="noopener"
-            variant="flat" class="mx-2" color="primary">
+            variant="flat" class="mx-2 social-button" color="primary">
             <v-icon :icon="link.icon" />
           </v-btn>
         </v-col>
