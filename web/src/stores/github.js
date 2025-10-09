@@ -21,7 +21,7 @@ const createFormatter = () =>
 const formatDate = (formatter, isoString) => {
   try {
     return formatter.format(new Date(isoString));
-  } catch (error) {
+  } catch (_error) {
     return isoString;
   }
 };
