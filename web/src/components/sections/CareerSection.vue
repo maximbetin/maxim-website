@@ -1,7 +1,7 @@
 <script setup>
 const futureProspects = [
   `DevOps pulled me in because it mixes the mechanics of resilient systems with the people side of shipping software. There is always a new puzzle, yet the work stays grounded in helping teammates move faster with less stress.`,
-  `Most days you’ll find me fine-tuning Kubernetes workloads, improving pipelines, or exploring cloud platform updates. The Google Cloud Associate Cloud Engineer certification stays current because I prefer practical knowledge to stay sharp.`,
+  `Most days you’ll find me pairing with engineers, coaxing pipelines into shape, or iterating on the platform roadmap with product leads. Practical hands-on work keeps me sharp, and I enjoy translating deep technical detail into clear direction for stakeholders.`,
   `The teams I gravitate toward value openness over heroics. Shared responsibility, steady delivery, and a healthy incident culture are the ingredients for platforms that are both dependable and calm to operate.`,
 ];
 
@@ -23,6 +23,27 @@ const highlights = [
     description:
       "Mentoring engineers, guiding incidents with a steady tone, and breaking complex systems into approachable steps.",
     icon: "mdi-account-group",
+  },
+];
+
+const experienceSnapshots = [
+  {
+    company: "Flowable",
+    summary:
+      "Designed an automation framework on AKS that parsed Jira queues, triggered onboarding workflows, and kept Workday integrations, runbooks, and monitoring in sync.",
+    tags: ["Automation", "AKS", "Python", "Argo CD"],
+  },
+  {
+    company: "WebHelp",
+    summary:
+      "Supported global customers on GCP PaaS, balancing incident response with forensic root-cause investigations across App Engine, Cloud Spanner, BigQuery, and Cloud Run.",
+    tags: ["GCP", "Incident response", "Performance", "Client advisory"],
+  },
+  {
+    company: "Planeta Huerto",
+    summary:
+      "Stabilised an undocumented e-commerce stack by rebuilding GKE clusters, hardening access, automating Bitbucket pipelines, and standing up observability with Prometheus and Grafana.",
+    tags: ["Kubernetes", "Security", "CI/CD", "Observability"],
   },
 ];
 </script>
@@ -66,6 +87,28 @@ const highlights = [
           </v-card>
         </v-col>
       </v-row>
+
+      <v-row class="g-6 mt-4">
+        <v-col cols="12">
+          <h3 class="text-h6 text-uppercase font-weight-medium mb-4 text-center text-md-left">Recent snapshots</h3>
+        </v-col>
+        <v-col v-for="snapshot in experienceSnapshots" :key="snapshot.company" cols="12" md="4">
+          <v-card class="experience-card pa-6 h-100">
+            <div class="d-flex align-center mb-3">
+              <v-icon icon="mdi-briefcase-outline" class="me-2" color="primary" />
+              <span class="text-subtitle-1 font-weight-semibold">{{ snapshot.company }}</span>
+            </div>
+            <p class="text-body-2 text-medium-emphasis mb-4">
+              {{ snapshot.summary }}
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <v-chip v-for="tag in snapshot.tags" :key="tag" color="secondary" size="small" variant="tonal">
+                {{ tag }}
+              </v-chip>
+            </div>
+          </v-card>
+        </v-col>
+      </v-row>
     </v-container>
   </section>
 </template>
@@ -77,5 +120,12 @@ const highlights = [
 
 .prose p+p {
   margin-top: 1rem;
+}
+
+.experience-card {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  background-color: var(--color-surface);
+  border: 1px solid rgba(44, 62, 145, 0.08);
 }
 </style>
