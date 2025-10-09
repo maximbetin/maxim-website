@@ -4,8 +4,8 @@ instance_class: B1
 
 handlers:
   - url: /(.*\..+)$
-    static_files: modern-client/dist/\1
-    upload: modern-client/dist/(.*\..+)$
+    static_files: web/dist/\1
+    upload: web/dist/(.*\..+)$
     secure: always
     http_headers:
       Strict-Transport-Security: "max-age=31536000; includeSubDomains; preload"
@@ -18,8 +18,8 @@ handlers:
         connect-src 'self' https://api.github.com;"
 
   - url: /.*
-    static_files: modern-client/dist/index.html
-    upload: modern-client/dist/index.html
+    static_files: web/dist/index.html
+    upload: web/dist/index.html
     secure: always
     http_headers:
       Strict-Transport-Security: "max-age=31536000; includeSubDomains; preload"

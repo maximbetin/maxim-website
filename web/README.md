@@ -1,4 +1,4 @@
-# Modern Client (Vue 3 + Vite)
+# Web App (Vue 3 + Vite)
 
 This directory contains the rebuilt version of [Maxim Betin](https://maximbetin.com)'s personal site. It replaces the legacy Vue 2 + Vue CLI app with a modern stack:
 
@@ -11,7 +11,7 @@ This directory contains the rebuilt version of [Maxim Betin](https://maximbetin.
 ## Getting started
 
 ```bash
-cd modern-client
+cd web
 npm install
 npm run dev
 ```
@@ -57,7 +57,7 @@ The application uses a GitHub public REST API call (`https://api.github.com/user
    gcloud app deploy app.yaml
    ```
 
-The updated `app.yaml` serves static assets from `modern-client/dist`, enforces Node.js 20 runtime, and applies security headers (HSTS, CSP, referrer policy, frame options, and nosniff).
+The updated `app.yaml` serves static assets from `web/dist`, enforces Node.js 20 runtime, and applies security headers (HSTS, CSP, referrer policy, frame options, and nosniff).
 
 ## Security headers
 
