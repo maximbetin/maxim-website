@@ -4,19 +4,49 @@ import { ref } from "vue";
 
 const LANGUAGES_TO_DISPLAY = 3;
 const MAX_PROJECTS = 12;
+const GITHUB_CLIENT = axios.create({
+  baseURL: "https://api.github.com",
+  headers: {
+    Accept: "application/vnd.github+json",
+  },
+});
 
-const formatDate = (isoString) => {
+const createFormatter = () =>
+  new Intl.DateTimeFormat("en-GB", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
+
+const formatDate = (formatter, isoString) => {
   try {
-    const formatter = new Intl.DateTimeFormat("en-GB", {
-      year: "numeric",
-      month: "short",
-      day: "numeric",
-    });
     return formatter.format(new Date(isoString));
   } catch (error) {
     return isoString;
   }
 };
+
+const sanitiseLanguages = (languageResponse) => {
+  const entries = Object.entries(languageResponse ?? {});
+  const byUsageDescending = entries.sort(([, usageA], [, usageB]) => usageB - usageA);
+  return byUsageDescending.slice(0, LANGUAGES_TO_DISPLAY).map(([name]) => name);
+};
+
+const normaliseRepository = (formatter, repo, languages) => ({
+  id: repo.id,
+  name: repo.name,
+  description: repo.description,
+  htmlUrl: repo.html_url,
+  updatedAt: formatDate(formatter, repo.updated_at),
+  stars: repo.stargazers_count,
+  isFork: repo.fork,
+  languages,
+});
+
+const orderRepositories = (repositories) => [
+  ...repositories.filter((repo) => !repo.fork),
+  ...repositories.filter((repo) => repo.fork),
+];
 
 export const useGithubStore = defineStore("github", () => {
   const repositories = ref([]);
@@ -32,50 +62,36 @@ export const useGithubStore = defineStore("github", () => {
     error.value = null;
 
     try {
-      const { data } = await axios.get("https://api.github.com/users/maximbetin/repos", {
+      const formatter = createFormatter();
+      const { data } = await GITHUB_CLIENT.get("/users/maximbetin/repos", {
         params: {
           sort: "updated",
           per_page: 100,
         },
-        headers: {
-          Accept: "application/vnd.github+json",
-        },
       });
 
-      const ordered = [...data.filter((repo) => !repo.fork), ...data.filter((repo) => repo.fork)];
+      const ordered = orderRepositories(data).slice(0, MAX_PROJECTS);
 
-      const selected = ordered.slice(0, MAX_PROJECTS);
-
-      const languageResponses = await Promise.allSettled(
-        selected.map((repo) =>
-          axios.get(repo.languages_url, {
-            headers: { Accept: "application/vnd.github+json" },
-          })
-        )
+      const languages = await Promise.all(
+        ordered.map(async (repo) => {
+          try {
+            const response = await GITHUB_CLIENT.get(repo.languages_url);
+            return sanitiseLanguages(response.data);
+          } catch (languageError) {
+            console.warn(
+              `[github-store] unable to load languages for ${repo.full_name}:`,
+              languageError
+            );
+            return [];
+          }
+        })
       );
 
-      repositories.value = selected.map((repo, index) => {
-        const languageResult = languageResponses[index];
-        let languages = [];
-
-        if (languageResult.status === "fulfilled") {
-          const entries = Object.entries(languageResult.value.data || {});
-          const sorted = entries.sort((a, b) => b[1] - a[1]).slice(0, LANGUAGES_TO_DISPLAY);
-          languages = sorted.map(([language]) => language);
-        }
-
-        return {
-          id: repo.id,
-          name: repo.name,
-          description: repo.description,
-          htmlUrl: repo.html_url,
-          updatedAt: formatDate(repo.updated_at),
-          stars: repo.stargazers_count,
-          isFork: repo.fork,
-          languages,
-        };
-      });
-    } catch (err) {
+      repositories.value = ordered.map((repo, index) =>
+        normaliseRepository(formatter, repo, languages[index])
+      );
+    } catch (requestError) {
+      console.error("[github-store] repository fetch failed", requestError);
       error.value = "Unable to load projects from GitHub right now.";
     } finally {
       loading.value = false;
