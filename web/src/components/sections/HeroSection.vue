@@ -24,7 +24,7 @@ const actions = HERO_ACTIONS;
               platforms, trim operational friction, and ship customer value without drama.
             </p>
             <div class="d-flex flex-wrap justify-center justify-md-start">
-              <v-btn v-for="action in actions" :key="action.key" class="ma-2" color="primary" variant="flat"
+              <v-btn v-for="action in actions" :key="action.key" class="ma-2 cta-button" color="primary" variant="flat"
                 size="large" :href="action.href" target="_blank" rel="noopener">
                 <v-icon :icon="action.icon" start />
                 {{ action.label }}

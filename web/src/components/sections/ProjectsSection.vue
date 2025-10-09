@@ -80,7 +80,11 @@ const error = computed(() => githubStore.error);
                   Forked
                 </v-chip>
               </div>
-              <v-btn color="primary" variant="flat" :href="repo.htmlUrl" target="_blank" rel="noopener">
+              <v-btn class="project-button" color="primary" variant="flat" :href="repo.htmlUrl" target="_blank"
+                rel="noopener">
+                <template #prepend>
+                  <v-icon icon="mdi-open-in-new" />
+                </template>
                 View repository
               </v-btn>
             </v-card-actions>
