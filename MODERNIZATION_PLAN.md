@@ -35,8 +35,8 @@
 
 ### Phase 2 · Tooling & Dependency Upgrades *(in progress)*
 
-- **[Project Scaffold — completed Oct 9, 2025]** Bootstrapped the Vue 3 + Vite app in `modern-client/`, migrated sections into `src/components/sections/`, and wired Vuetify, Pinia, and the router in `src/main.js`.
-- **[Dependencies — completed Oct 9, 2025]** Refreshed `modern-client/package.json` with Vue 3.5, Vuetify 3.7, Pinia 3, Axios 1.7, Sass, and `vite-plugin-vuetify`; generated `package-lock.json` under Node 20.
+- **[Project Scaffold — completed Oct 9, 2025]** Bootstrapped the Vue 3 + Vite app in `web/`, migrated sections into `src/components/sections/`, and wired Vuetify, Pinia, and the router in `src/main.js`.
+- **[Dependencies — completed Oct 9, 2025]** Refreshed `web/package.json` with Vue 3.5, Vuetify 3.7, Pinia 3, Axios 1.7, Sass, and `vite-plugin-vuetify`; generated `package-lock.json` under Node 20.
 - **[Testing & Linting — pending]** Configure ESLint 9 + Prettier, Vitest, and Husky pre-commit hooks to align with the tooling objective.
 
 ### Phase 3 · Application Refactor *(in progress)*
@@ -48,7 +48,7 @@
 
 ### Phase 4 · Security & Deployment *(in progress)*
 
-- **[Config — completed Oct 9, 2025]** Updated `app.yaml` to Node.js 20, serving `modern-client/dist/` with history-mode rewrites and secure defaults.
+- **[Config — completed Oct 9, 2025]** Updated `app.yaml` to Node.js 20, serving `web/dist/` with history-mode rewrites and secure defaults.
 - **[Headers & Assets — in progress]** CSP, HSTS, frame, and referrer policies defined in `app.yaml`; still need SRI hashes plus `robots.txt`, `sitemap.xml`, and refreshed favicons.
 - **[Automation — pending]** Stand up CI (GitHub Actions), dependency scanning, and deployment documentation enhancements.
 
@@ -59,6 +59,6 @@
 
 ## Immediate Action Items
 
-- **[Decide Stack Direction — completed Oct 9, 2025]** Vue 3 + Vite + Vuetify 3 stack approved and implemented under `modern-client/`.
+- **[Decide Stack Direction — completed Oct 9, 2025]** Vue 3 + Vite + Vuetify 3 stack approved and implemented under `web/`.
 - **[Establish Tracking — pending]** Create issues/project board entries per phase, starting with testing tooling and automation follow-ups.
 - **[Communicate Changes — pending]** Broadcast the modernization progress and remaining workstreams to stakeholders and align on deployment timelines.

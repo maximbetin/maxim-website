@@ -1,8 +1,8 @@
 .DS_Store
 node_modules/
 dist/
-modern-client/node_modules/
-modern-client/dist/
+web/node_modules/
+web/dist/
 .env.local
 .env.*.local
 
