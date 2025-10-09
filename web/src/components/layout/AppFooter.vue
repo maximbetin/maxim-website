@@ -4,7 +4,7 @@
       <v-row align="center" justify="space-between" class="flex-column flex-md-row text-center text-md-left">
         <v-col cols="12" md="6">
           <p class="mb-1 text-subtitle-1 font-weight-medium">Working on calm, reliable platforms.</p>
-          <p class="text-body-2 text-medium-emphasis mb-0">&copy; {{ currentYear }} Maxim Betin · Built with Vue 3, Vuetify, and plenty of coffee.</p>
+          <p class="text-body-2 text-medium-emphasis mb-0">&copy; {{ currentYear }} Maxim Betin Khvalenskiy · Built with Vue 3, Vuetify, and plenty of coffee.</p>
         </v-col>
         <v-col cols="12" md="6" class="d-flex justify-center justify-md-end mt-4 mt-md-0">
           <v-btn v-for="link in socialLinks" :key="link.href" :href="link.href" target="_blank" rel="noopener"

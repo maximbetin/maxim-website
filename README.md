@@ -1,4 +1,4 @@
-# Maxim Betin — Portfolio Website
+# Portfolio Website
 
 This repository contains the Vue 3 + Vite source for [Maxim Betin](https://maximbetin.com)'s personal website. The application lives under `web/` and is deployed to Google App Engine.
 
@@ -51,8 +51,23 @@ npm run lint     # Run ESLint on src/**/*.js and src/**/*.vue
 
 ## Deployment
 
-1. Build the site: `npm run build`
-2. Deploy with App Engine: `gcloud app deploy app.yaml`
+### Requirements
+
+- Google Cloud project with App Engine initialized in the desired region (e.g. `gcloud app create --region=europe-west1`).
+- Google Cloud SDK installed and authenticated (`gcloud auth login`).
+- The `gcloud` CLI configured to use your project (`gcloud config set project <PROJECT_ID>`).
+
+### Build & deploy
+
+```bash
+cd web
+npm install
+npm run build
+gcloud app deploy ../app.yaml
+```
+
+- `npm run build` outputs production assets to `web/dist/`.
+- `gcloud app deploy ../app.yaml` uploads the bundled site and applies the settings defined in the root `app.yaml` file.
 
 `app.yaml` targets the Node.js 20 runtime, serves `web/dist/`, and sets CSP, HSTS, referrer, and frame headers. Static assets include `robots.txt` and `sitemap.xml` under `web/public/`.
 

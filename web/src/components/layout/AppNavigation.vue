@@ -28,6 +28,11 @@ watch(
 );
 
 const scrollToSection = target => {
+  const { document, window } = globalThis;
+  if (!document || !window) {
+    return;
+  }
+
   const element = document.getElementById(target);
   if (!element) {
     return;
@@ -50,7 +55,7 @@ const handleNavigate = target => {
   <header>
     <v-app-bar elevation="0" class="app-navigation" color="surface">
       <v-app-bar-nav-icon class="d-lg-none" @click="toggleDrawer" />
-      <v-toolbar-title class="font-weight-bold">Maxim Betin</v-toolbar-title>
+      <v-toolbar-title class="font-weight-bold">Maxim Betin Khvalenskiy</v-toolbar-title>
       <v-spacer />
       <nav class="d-none d-lg-flex">
         <v-btn v-for="item in menuItems" :key="item.target" variant="text" class="text-button text-uppercase"
@@ -75,8 +80,8 @@ const handleNavigate = target => {
 <style scoped>
 .app-navigation {
   backdrop-filter: blur(18px);
-  border-bottom: 1px solid rgba(44, 62, 145, 0.08);
-  box-shadow: 0 12px 32px rgba(31, 43, 104, 0.08);
+  border-bottom: 1px solid rgba(29, 53, 87, 0.12);
+  box-shadow: 0 12px 32px rgba(29, 53, 87, 0.12);
 }
 
 .text-button {
