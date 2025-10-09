@@ -24,12 +24,6 @@ const LINKS = {
     href:
       "https://storage.googleapis.com/phonic-network-281616.appspot.com/Maxim%20Betin%20-%20Resume%20(English).pdf",
   },
-  instagram: {
-    key: "instagram",
-    label: "Instagram",
-    icon: "mdi-instagram",
-    href: "https://www.instagram.com/maxim_93b/",
-  },
 };
 
 export const HERO_ACTIONS = [
@@ -38,7 +32,5 @@ export const HERO_ACTIONS = [
   LINKS.github,
   LINKS.resume,
 ];
-
-export const CONTACT_LINKS = [LINKS.linkedin, LINKS.instagram];
 
 export const FOOTER_LINKS = [LINKS.linkedin, LINKS.github];

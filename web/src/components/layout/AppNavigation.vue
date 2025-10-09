@@ -10,7 +10,6 @@ const menuItems = [
   { label: "Skills", target: "skills" },
   { label: "Career", target: "career" },
   { label: "Projects", target: "projects" },
-  { label: "Contact", target: "contact" },
 ];
 
 const isMobile = computed(() => display.smAndDown.value);
