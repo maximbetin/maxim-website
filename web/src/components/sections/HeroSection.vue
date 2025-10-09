@@ -16,13 +16,12 @@ const actions = HERO_ACTIONS;
         <v-col cols="12" md="6">
           <div class="text-md-left text-center">
             <p class="text-subtitle-1 text-uppercase font-weight-medium mb-2">
-              Engineering Leader · DevOps Specialist
+              Engineering lead and DevOps engineer
             </p>
             <h1 class="text-h3 text-md-h2 font-weight-bold mb-4">Maxim Betin</h1>
             <p class="text-body-1 text-medium-emphasis mb-8">
-              Analytical engineering leader focused on automation, reliability, and
-              people-centric collaboration. I design resilient platforms, nurture
-              healthy teams, and ship outcomes that matter.
+              I build reliable platforms, guide teams through change, and enjoy making
+              complex systems easier for everyone who uses them.
             </p>
             <div class="d-flex flex-wrap justify-center justify-md-start">
               <v-btn v-for="action in actions" :key="action.key" class="ma-2" color="primary" variant="flat"

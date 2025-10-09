@@ -60,5 +60,3 @@
 ## Immediate Action Items
 
 - **[Decide Stack Direction — completed Oct 9, 2025]** Vue 3 + Vite + Vuetify 3 stack approved and implemented under `web/`.
-- **[Establish Tracking — pending]** Create issues/project board entries per phase, starting with testing tooling and automation follow-ups.
-- **[Communicate Changes — pending]** Broadcast the modernization progress and remaining workstreams to stakeholders and align on deployment timelines.

@@ -48,9 +48,9 @@ const chartOptions = {
 const series = [26, 23, 15, 10, 9, 8, 3, 2, 2, 2];
 
 const paragraphs = computed(() => [
-  `As a Computer Engineering graduate from the University of Alicante and the esteemed ARA (Alto Rendimiento Académico) group, I bring a global perspective to my work, having lived most of my life in Spain and completed my International Baccalaureate in Sweden (English-taught program). With fluency in both Spanish and English, I navigate multicultural environments with ease.`,
-  `Analytical and observant by nature, I prioritize in-depth evaluation and systematic consideration before reaching crucial decisions. This approach equips me to maintain an objective stance, keep my thoughts well-ordered, and avoid impulsive actions. My curiosity extends to details, driving me to continually learn from domains including IT, history, culture, economics, and beyond.`,
-  `An advocate for contributing to society, I derive immense fulfillment from helping others. It's heartening to see the impact I can make simply by lending an understanding ear and offering feasible solutions based on my experiences. This was vividly demonstrated during my university days when I developed a software solution to combat school bullying for my thesis.`,
+  `I studied Computer Engineering at the University of Alicante as part of the ARA program and spent several years in Sweden completing the International Baccalaureate. Speaking both Spanish and English lets me work comfortably with teams in different places.`,
+  `I take time to understand a problem before making decisions and look for clear, practical answers. Outside of work I stay curious about technology, history, culture, and economics because fresh context helps me build better solutions.`,
+  `Helping others is a big motivator for me. During university I built my thesis project to tackle school bullying, and I still enjoy sharing what I learn so other people can move faster.`,
 ]);
 </script>
 
