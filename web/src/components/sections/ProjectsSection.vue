@@ -1,16 +1,15 @@
 <script setup>
 import { useGithubStore } from "@/stores/github";
-import { computed, onMounted } from "vue";
+import { storeToRefs } from "pinia";
+import { onMounted } from "vue";
 
 const githubStore = useGithubStore();
+const { repositories, loading, error } = storeToRefs(githubStore);
+const { fetchRepositories } = githubStore;
 
 onMounted(() => {
-  githubStore.fetchRepositories();
+  fetchRepositories();
 });
-
-const repositories = computed(() => githubStore.repositories);
-const loading = computed(() => githubStore.loading);
-const error = computed(() => githubStore.error);
 </script>
 
 <template>
