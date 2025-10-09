@@ -37,7 +37,7 @@
 
 - **[Project Scaffold — completed Oct 9, 2025]** Bootstrapped the Vue 3 + Vite app in `web/`, migrated sections into `src/components/sections/`, and wired Vuetify, Pinia, and the router in `src/main.js`.
 - **[Dependencies — completed Oct 9, 2025]** Refreshed `web/package.json` with Vue 3.5, Vuetify 3.7, Pinia 3, Axios 1.7, Sass, and `vite-plugin-vuetify`; generated `package-lock.json` under Node 20.
-- **[Testing & Linting — pending]** Configure ESLint 9 + Prettier, Vitest, and Husky pre-commit hooks to align with the tooling objective.
+- **[Testing & Linting — in progress]** ESLint 9 with Vue plugin configured (`npm run lint`); still evaluating Prettier, Vitest, and Husky setup.
 
 ### Phase 3 · Application Refactor *(in progress)*
 
@@ -49,7 +49,7 @@
 ### Phase 4 · Security & Deployment *(in progress)*
 
 - **[Config — completed Oct 9, 2025]** Updated `app.yaml` to Node.js 20, serving `web/dist/` with history-mode rewrites and secure defaults.
-- **[Headers & Assets — in progress]** CSP, HSTS, frame, and referrer policies defined in `app.yaml`; still need SRI hashes plus `robots.txt`, `sitemap.xml`, and refreshed favicons.
+- **[Headers & Assets — in progress]** CSP, HSTS, frame, and referrer policies defined in `app.yaml`; `robots.txt` and `sitemap.xml` added under `web/public/`; still need SRI hashes and refreshed favicons.
 - **[Automation — pending]** Stand up CI (GitHub Actions), dependency scanning, and deployment documentation enhancements.
 
 ### Phase 5 · Verification & Launch *(pending)*
